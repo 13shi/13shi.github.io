@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
+<html lang="ja">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- css読み込み -->
   <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-  <!-- jQuery読み込み -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
-  <!-- fancbox読み込み -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
-  
-  <!-- 自作js -->
-  <script type="text/javascript" src="sample.js"></script>
+  <!-- fancyboxのcss -->
+  <link rel="stylesheet" href="../fancybox-master/dist/jquery.fancybox.min.css">
   
   <title>fragment of a star</title>
 </head>
@@ -37,25 +32,46 @@
 
 
 <div class="recipe-card">
-<img src="01.png" class="cimg">
+<figure class="snip1361">
+<img src="01.png" alt="sample45">
+  <figcaption>
 <h3>Episode 1</h3>
-<p>何も願わない少女が出会ったのは</p>
-<p>星の加護を授けしものMrs.オルドハットマン</p>
-<p>未開の惑星にて、出会い、物語が始まる</p>
-<a class="" href="01.mp4"><p><i class="far fa-play-circle fa-2x"></i></p></a>
-
-
- 
-
+<div class="ma">
+<p>少女が出会ったのは</p>
+<p>星の加護を授けしもの</p><p>Mrs.オルドハットマン</p>
+<p>未開の惑星にて物語が始まる</p>
+<a data-fancybox="video"  data-width="960" data-height="570" href="01.mp4" data-caption="Caption #1"><p><i class="far fa-play-circle fa-2x"></i></p></a>
+</div>
+</figcaption>
+</figure>
 </div>
 
-<a class="modal" href="#video">動画を再生</a>
-
-<div id="video">
-  <video id='player" controls width="640" height="360'>
-    <source href="01.mp4">
-  </video>
+<div class="recipe-card">
+<figure class="snip1361">
+<img src="02.png" alt="sample45">
+  <figcaption>
+<h3>Episode 1</h3>
+<div class="ma">
+<p>少女が出会ったのは</p>
+<p>星の加護を授けしもの</p><p>Mrs.オルドハットマン</p>
+<p>未開の惑星にて物語が始まる</p>
+<a data-fancybox="video"  data-width="960" data-height="570" href="02.mp4" data-caption="Caption #1"><p><i class="far fa-play-circle fa-2x"></i></p></a>
 </div>
+</figcaption>
+</figure>
+</div>
+
+
+
+
+
+   <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="index.js"></script>
+  <!-- fancybox読み込み -->
+  <script src="../fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+
 
 
 </body>
