@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, rgba(53, 60, 118, 0.31), rgba(255, 255, 206, 0.27) ) fixed,url(bg.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover; background-color: #464646;
+    background: linear-gradient(135deg, rgba(27, 31, 60, 0.69), rgba(173, 173, 120, 0.21) ) fixed,url(bg.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover; background-color: #464646;
 background-size: cover;}
 
 .top{margin-top: 150px;}
