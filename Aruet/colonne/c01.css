@@ -1,0 +1,50 @@
+*{box-sizing:border-box;}
+
+/* :::::: メニュー部分パーツ ::::::*/
+p, li, dt, dd {text-align: left;}
+ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+
+/* :::::: 上のメニュー ::::::*/
+
+header{background: #155263;position: relative;width: 100%;z-index: 999;}
+.g-nav{width: 100%;z-index: 10;}
+.g-nav-menu{text-align: center;}
+.g-nav-menu li{color: #fff;padding: 0 30px;list-style-type: none;display: inline-block;line-height: 40px;}
+.fixed{position: fixed;top: 0;left: 0;}
+.fixed .g-nav-menu li{line-height: 30px;}
+
+body{background:linear-gradient(rgba(255, 255, 255, 0.03),rgba(45, 33, 18, 0.27))  fixed, url(../img/915932.png) fixed;background-size:cover;margin: 0 auto;}
+html{scroll-behavior:smooth;}
+
+p{line-height:1.5;font-family: "Sawarabi Mincho"; color: #4E4634; }
+
+.top p{text-align: center;line-height: 1;}
+.top{margin: 50px 0px;}
+.mid{width: 60%;margin: auto;background-color: rgba(255, 255, 255, 0.49);padding: 25px;margin-bottom: 10px}
+
+.jack{font-weight: bold;padding-top: 15px;}
+.lost{margin-left: 40px;}
+
+h3{text-align: center;font-family: "Sawarabi Mincho"; color: #4E4634;margin: 20px 0px;}
+
+
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+input:valid, textarea:valid { }input:invalid, textarea:invalid { background-color: #f0dddd; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+.copyright{height: 100px;width: 100%; color: white;background-color: #4E4634;text-align: center;position: relative;font-family: 'IM Fell French Canon SC', serif;}
+.copy{position: absolute;bottom: 0;left: 0;margin-left: 5px;line-height: 1px;}
+.icon_top{margin: auto;padding-top: 10px;width: 30%;text-align: center;}
+.bot_link:hover{color: #a2967b;transition: 0.5s;}
+.topgo{ position: fixed;bottom: 10px;right: 10px;color: rgba(222, 222, 222, 0.53);box-shadow: 0.5px;z-index: 2;}
+.colo{color:rgba(38, 36, 33, 0.67)}
+
+a:visited { color:rgba(255, 255, 255, 0); }
+

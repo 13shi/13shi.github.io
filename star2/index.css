@@ -1,21 +1,30 @@
-body {
-    background: linear-gradient(135deg, rgba(27, 31, 60, 0.69), rgba(173, 173, 120, 0.21) ) fixed,url(bg.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover; background-color: #464646;
-background-size: cover;}
+body {background: linear-gradient(135deg, rgba(27, 31, 60, 0.69), rgba(173, 173, 120, 0.21) ) fixed,url(bg.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover; background-color: #464646;background-size: cover;}
 
 .top{margin-top: 150px;}
 .top h3{font-family: 'Lobster', cursive;color: white;text-align: center; font-size:45px;letter-spacing: 3px;text-shadow:5px 5px 0px rgba(180, 180, 180, 0.45);}
 .mid p{ font-family: "Sawarabi Mincho"; text-align: center; color: white;}
 
-.recipe-card{position: relative;height: 300px;width: 250px;background-color: #292929;margin: auto;border-radius: 10px 10px;box-shadow: 10px 10px 2px rgba(64, 64, 64, 0.3);overflow: hidden;color: white;margin-top: 35px;}
+.mid_c{width: 900px;position: relative;margin: auto;}
+.recipe-card{height: 300px;width: 250px;background-color: #292929;border-radius: 10px 10px;box-shadow: 10px 10px 2px rgba(64, 64, 64, 0.3);overflow: hidden;color: white;margin:25px 25px;;float: left}
 
-.recipe-card h3{text-align: center;font-size:35px;line-height: 0;}
+
+.top_chara{text-align: center;opacity: 0.7;-webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+     filter: grayscale(100%);display: block;margin-bottom:220px;}
+.top_chara img{width: 200px;}
+
+
+
+.recipe-card h3{text-align: center;font-size:35px;line-height: 0;color: #292929}
 .recipe-card p{text-align: center;font-family: "Sawarabi Mincho"; }
-.recipe-card i{text-align: center;color: white;}
+.recipe-card i{text-align: center;color: #292929;}
 
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Quattrocento);
 .snip1361 {
-  font-family: 'Quattrocento', Arial, sans-serif;position: relative;overflow: hidden;
+  position: relative;overflow: hidden;
   margin: 0px;min-width: 250px;max-width: 315px;width: 100%;color: #141414;
   text-align: left;line-height: 1.4em; font-size: 16px;}
 .snip1361 * {-webkit-box-sizing: border-box;box-sizing: border-box;

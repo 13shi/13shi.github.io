@@ -1,0 +1,65 @@
+border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+
+要素を画面いっぱいに表示したい→ body{margin: 0;}
+
+
+アルエット洋菓子店
+フランスの代表的なお菓子から、軽食まで。古き良き一軒家の片隅で、ゆっくり過ごせる隠れ家のような洋菓子店です。丁寧なお菓子を味わいつつ、息抜きしてみませんか？
+
+季節の焼き菓子
+季節のフルーツを使ったクッキーやフルーツフィナンシェで、季節の香りを楽しんでみませんか？　お店では手作りのジャムと一緒にお飲み物も楽しめます。
+
+商品ページ
+通常メニュー一覧。洋菓子からドリンク、和菓子など。フランス人パティシエと、日本人シェフの腕が光るお菓子がたくさん。
+
+
+
+12. ファビコン
+URLアドレスバーの横にちょこんとある小さな画像、ファビコンを作成。まずはPhotoshop、Illustratorなどで16px四方の画像を作成し、.gifか.pngで保存。その画像を.icoに変換してくれるサイトなどで.ico画像を作ります。その後header内に以下を記述すればファビコン設置完了です。（わざわざ.gifから.icoに変換しなくてもWindowsのPhotoshopなら別名保存から.icoで保存できるらしい。。？Windows使わないのでこの辺よくわかりません。。）
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+◆空っぽの <span> 要素のマージンであける◆
+
+一番きれいな方法は、
+スペースを開けたい場所に「<span>」要素をおいて、
+右余白「margin-right」を８文字分（8em）だけ指定する方法だと思います♪
+┌────
+おむすび山に<span style="margin-right: 8em;"></span>チャックがついたらしい！
+└────
+
+この方法であけると、
+あける空白の幅を、ピクセル数で指定することも出来ますね♪
+┌────
+やっほおお<span style="margin-right: 120px;"></span>ゃっほぉぉ
+
+
+└────
+
+http://blog.minimal-green.com/entry/2017/02/03/005111
+
+
+
+   <div class="contact-form">
+        <h3 class="section-title">お問い合わせ</h3>
+        <p>メールアドレス（必須）</p>
+        <input>
+        <p>お問い合わせ内容（必須）</p>
+        <textarea></textarea>
+        <p>※必須項目は必ずご入力ください</p>
+        <input class="contact-submit" type="submit" value="送信">
+        
+      </div>
+
+
+
+
+.contact-form input, .contact-form textarea{width: 400px;margin-top: 10px;margin-bottom: 10px;padding: 10px;
+  font-size: 18px; border: 1px solid #dee7ec;}
+.contact-form input{}
+.contact-submit {background-color: #dee7ec;color: #889eab;width: 50px;}
+
+
+    

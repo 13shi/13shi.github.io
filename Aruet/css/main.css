@@ -1,0 +1,221 @@
+*{box-sizing:border-box;}
+
+/* :::::: メニュー部分パーツ ::::::*/
+p, li, dt, dd {text-align: left;}
+ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+
+
+
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+input:valid, textarea:valid { }input:invalid, textarea:invalid { background-color: #f0dddd; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* :::::: gallery ::::::*/
+#gallery {position: relative;width: 700px;height: 300px;margin: 10px auto;padding: 10px 0;background: url(../img/bg_gallery.jpg);}
+#gallery .slideFrame {position: relative;height: 280px;overflow: hidden;margin-bottom: 10px;}
+/* slide images */
+#gallery .slideFrame ul {position: absolute;top: 0;left: 90px;width: 1620px;margin: 0;}
+#gallery .slideFrame ul li {float: left;width: 520px;margin-right: 20px;}
+#gallery .slideFrame ul li:last-child {margin-right: 0;}
+#gallery .slideFrame ul li a {background: none;}
+
+/* gallery items */
+#gallery ul li,#gallery ul li a,#gallery p,#gallery p i {background: url(../img/gallery_item.png);}
+
+/* slider arrow button */
+#gallery p,
+#gallery  a {position: absolute;top: 0;margin: 0;width: 110px;height: 320px;cursor: pointer;}
+#gallery .next {right: 0;background-position: -110px 0;}
+#gallery p i {display: block;width: 26px;height: 26px;margin: 140px 0 0 40px;background-position: -230px 0;}
+#gallery p:hover i {margin: 140px 0 0 32px;}
+#gallery .next i {margin-left: 44px;background-position: -230px -30px;}
+
+/* CSS Programming */
+#gallery #switch1:target ~ .slideFrame ul {left: 90px;}
+#gallery #switch2:target ~ .slideFrame ul {left: -450px;}
+#gallery #switch3:target ~ .slideFrame ul {left: -990px;}
+#gallery #switch1:target ~ .nav li a[href="#switch1"],
+#gallery #switch2:target ~ .nav li a[href="#switch2"],
+#gallery #switch3:target ~ .nav li a[href="#switch3"] {opacity: 0;}
+#gallery .switch {display: none;}
+#gallery .next a[href="#switch2"] {z-index: 1;}
+#gallery #switch1:target ~ .prev a:not([href="#switch3"]),
+#gallery #switch2:target ~ .prev a:not([href="#switch1"]),
+#gallery #switch3:target ~ .prev a:not([href="#switch2"]),
+#gallery #switch1:target ~ .next a:not([href="#switch2"]),
+#gallery #switch2:target ~ .next a:not([href="#switch3"]),
+#gallery #switch3:target ~ .next a:not([href="#switch1"]) {pointer-events: none;}
+
+/* transition */
+#gallery ul.nav li a {transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0;}
+#gallery i {transition: all 0.3s ease 0s;-webkit-transition: all 0.3s ease 0;}
+#gallery .slideFrame ul {transition: left 1s cubic-bezier(0.85, 0.03, 0.15, 0.96) 0s;
+	-webkit-transition: left 1s cubic-bezier(0.85, 0.03, 0.15, 0.96) 0;}
+
+/* clearfix */
+#gallery ul:before, #gallery ul:after {content: ""; display: table;}
+#gallery ul:after {clear: both;}
+#gallery ul {*zoom: 1;}
+
+
+body{background:linear-gradient(rgba(255, 255, 255, 0.03),rgba(45, 33, 18, 0.27))  fixed, url(../img/915932.png) fixed;background-size:cover;margin: 0 auto;}
+html{scroll-behavior:smooth;}
+
+
+/* :::::: 上のメニュー ::::::*/
+
+header{background: #155263;position: relative;width: 100%;z-index: 999;}
+.g-nav{width: 100%;z-index: 10;}
+.g-nav-menu{text-align: center;}
+.g-nav-menu li{color: #fff;padding: 0 30px;list-style-type: none;display: inline-block;line-height: 40px;}
+.fixed{position: fixed;top: 0;left: 0;}
+.fixed .g-nav-menu li{line-height: 30px;}
+ 
+
+
+/* :::::: 上 ::::::*/
+.top{height: 130px;width: 100%;position: relative;background-color: #4E4634;z-index: 1;}
+.tpo_main{}
+.top_main h4{font-family: 'IM Fell French Canon SC', serif; font-size:30px;text-align: center;margin: 0 auto;padding-top: 38px;letter-spacing:20px;color:white;font-weight: 200;position: absolute;width: 100%;height: 100%;z-index: 2;}
+.top_main p{font-family: 'IM Fell French Canon SC', serif; font-size:15px;text-align: center;margin: 0 auto;padding-top: 78px;color:white;font-weight: 200;position: absolute;width: 100%;}
+.top_summary{margin: 0 auto;position: absolute;color: white;text-align: center;height: 100%;float: left;width: 70%;margin-top: 90px;}
+.tweet{position: absolute;bottom:0%; right:0%;margin-right: 20px;}
+
+/* :::::: ロゴ部分 ::::::*/
+.concept{margin: auto;text-align: center;width: 100%;height: 280px;margin-top:50px;}
+.midlogo{width:150px;margin-bottom: -20px;transition: transform 0.3s ease-out;}
+.midlogo:hover {transform: rotate(15deg);z-index: 1}
+.concept h3{font-family: "Sawarabi Mincho"; color: #4E4634;letter-spacing: 23px;font-size:32px;text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.26);font-weight:200;}
+
+/* :::::: 一文 ::::::*/
+.summary{width: 100%;padding-top: 5px;display: inline-block}
+.summary p{text-align: center; color: #4E4634;font-size: 20px;text-shadow: 0 0 10px #212121;font-family: "Sawarabi Mincho";z-index:-2;}
+.summary:first-letter{font-size:30px}
+
+/* :::::: まんなか ::::::*/
+.ter{text-align: center;margin-top: 60px; height: 430px;background-color: rgba(78, 70, 52, 0.95);width: 100%;}
+.news{padding-top: 20px;}
+.ntitle{color: white;font-family: 'IM Fell French Canon SC', serif;font-size:25px;text-align: center;margin: 0 auto;}
+.ntitle:first-letter{font-size:30px}
+.slide{padding-top:20px;}
+
+/* :::::: メニュー ::::::*/
+.mid{width: 100%;padding-top: 5px;margin-top: 25px;margin-bottom: 35px;}
+.mid a, .mid p{text-align: center; color: #4E4634;font-size: 15px;text-shadow: 0 0 5px rgba(33, 33, 33, 0.63);font-family: "Sawarabi Mincho"; display: block;line-height: 2;text-decoration: none;}
+.mid a{display: inline-block;transition: all .5s;border-radius: 40px 5px;}
+.mid a:hover{background-color: rgba(151, 127, 98, 0.27);}
+.mid a:visited{color: #4E4634;}
+
+/* :::::: event ::::::*/
+.event{width: 100%;padding-top: 20px;}
+.jd{font-size:25px;font-family: "Sawarabi Gothic";line-height: 0;text-shadow: 0 0 10px #212121;text-align: center}
+.jd:first-letter{font-size:30px}
+.jd2{text-align: center;font-size:15px;padding-top: 10px;padding-bottom: 10px;text-shadow: none;}
+
+.eve01{width: 100%;height: 500px;overflow: hidden;background-color: aqua;position: relative}
+
+.fot1{position: absolute;float: left;width: }
+.pot1{position: absolute;width: 50%}
+.pot1 p{text-align: center;}
+
+
+/* ヘッダー下おすすめ記事 */
+.recommend {
+    width: 1000px;
+    margin: 40px auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    box-sizing: border-box;margin: 0 auto;
+}
+.recommend-box {width: 300px;height: 230px; margin-right: 20px; padding: 10px;;box-sizing: border-box;}
+.recommend-image img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 919px){
+.last-box {display: none;}
+.recommend {width: 83.9%;margin: 20px auto;}
+.recommend-box {width: 200px;height: 190px;}}
+
+@media (max-width: 767px) {
+.recommend {
+    width: 93.9%;
+    margin: 20px auto;
+    display:block;
+}
+.recommend-box {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    border: none;
+    width: 100%;
+    height: auto; 
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+.recommend-image, .recommend-image img {
+    width: 100px;
+    height: 66px;
+    overflow: hidden;
+}
+.recommend-title {
+    width: 250px;
+    vertical-align: top;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+}
+@media (max-width: 367px){
+.recommend-image img {
+    width: 80px;
+    height: 53px; 
+}
+.recommend-title {
+    width: 200px;
+}
+}
+/* 余白などの調整 */
+#container #content {
+    padding-top: 0;
+}
+.breadcrumb {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* :::::: ADCとサポート ::::::*/
+.bot{height: 200px;position: relative;width: 100%;}
+.baito{position: absolute;right: 0;bottom: 0;font-family: "Sawarabi Mincho"; color: #4E4634;font-size: 12px;margin-right: 45px;}
+.bicon{width: 50px;}
+.bicon:hover{filter: alpha(opacity=60);  opacity: 0.6;}
+
+.fot{margin-left: 20px;position: absolute;}
+.fot:hover{filter: alpha(opacity=60);  opacity: 0.6;}
+
+.bot2{text-align: center;margin-bottom:10px;width: 100%}
+.botlogo{margin: 0 auto;width: 70px;}
+
+
+
+/* :::::: 下の方 ::::::*/
+.copyright{height: 100px;width: 100%; color: white;background-color: #4E4634;text-align: center;position: relative;font-family: 'IM Fell French Canon SC', serif;}
+.copy{position: absolute;bottom: 0;left: 0;margin-left: 5px;line-height: 1px;}
+.icon_top{margin: auto;padding-top: 10px;width: 30%;text-align: center;}
+.bot_link:hover{color: #a2967b;transition: 0.5s;}
+.topgo{ position: fixed;bottom: 10px;right: 10px;color: rgba(222, 222, 222, 0.53);box-shadow: 0.5px;z-index: 2;}
+.colo{color:rgba(38, 36, 33, 0.67)}
+
+a:visited { color:rgba(255, 255, 255, 0); }
+
