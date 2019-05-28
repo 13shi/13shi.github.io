@@ -1,0 +1,190 @@
+.c-cont {
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: #212121;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.box1 {
+    text-align: center;
+    line-height: 0.5;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.skeb {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.fra {
+    text-align: center;
+}
+
+.skeb a {
+    color: #333333;
+}
+
+.skeb a:hover {
+    text-shadow: none;
+}
+
+.btn {
+    background-color: #cecece;
+    padding: 10px;
+    box-shadow: 2px 2px 2px;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
+}
+
+.pricing__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    flex: 0 1 230px;
+}
+
+.pricing__feature-list {
+    text-align: left;
+}
+
+.pricing__action {
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+.pricing__action:focus {
+    outline: none;
+}
+
+
+/* Sonam */
+.pricing--sonam .pricing__item {
+    margin: 1.5em;
+    padding: 2em;
+    cursor: default;
+    border-radius: 10px;
+    background: #dddddd;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 15px 30px -10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__item:hover {
+    background: #f5f5f5;
+}
+
+.pricing--sonam .pricing__title {
+    font-size: 1.5em;
+    width: 100%;
+    line-height: 1;
+    color: #2e2e2e;
+    border-bottom: 3px solid rgb(168, 168, 168);
+}
+
+.pricing--sonam .pricing__price {
+    color: #E06060;
+    font-size: 1.75em;
+    padding: 4px;
+}
+
+.pricing--sonam .pricing__sentence {
+    font-weight: bold;
+    color: #363636;
+}
+
+.pricing--sonam .pricing__feature-list {
+    margin: 0;
+    padding: 1em 1.25em 2em;
+    line-height: 1;
+}
+
+.pricing--sonam .pricing__action {
+    font-weight: bold;
+    margin-top: auto;
+    padding: 0.75em 2em;
+    border-radius: 5px;
+    background: #E06060;
+    transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__action:hover,
+.pricing--sonam .pricing__action:focus {
+    background: #BD3C3C;
+}
+
+header {
+    text-align: center;
+}
+
+
+.c-cont {
+    padding-top: 80px;
+}
+
+.fra2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atte {
+    width: 70%;
+    background-color: white;
+    margin: 1.5em;
+    padding: 1.5em;
+    text-align: center;
+    cursor: default;
+    border-radius: 10px;
+    background: #dddddd;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 15px 30px -10px rgba(0, 0, 0, 0.3);
+    color: #2e2e2e;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    /*左右中央揃え*/
+    align-items: center;
+    /*上下中央揃え*/
+}
+
+.bold {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.not {
+    color: #E06060;
+}
+
+.pricing__action a {
+    line-height: 1;
+    display: block;
+    margin-top: 13px;
+}
+
+.pricing__action a:hover {
+    text-shadow: none
+}

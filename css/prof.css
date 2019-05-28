@@ -1,0 +1,274 @@
+body {
+    text-align: center;
+}
+
+.cont {
+    margin-top: 80px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.cont-s {
+    line-height: 0.5;
+}
+
+.cont img {
+    margin-left: 50px;
+    -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .8));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .8));
+}
+
+.pr {
+    font-family: "Nico Moji";
+    font-size: 25px;
+}
+
+.cont a {
+    background-color: gray;
+    padding: 10px 25px;
+    color: currentColor;
+    box-shadow: 5px 5px 5px #414141;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.cont a:hover {
+    background-color: #3e3e3e;
+    text-shadow: none;
+    box-shadow: none;
+    color: white;
+}
+
+.tit {
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+
+.cont {
+    line-height: 0.5
+}
+
+
+
+/* 
+Copyright Andrew Canham
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+.no-touch a.btn:hover {
+    background: #00a2ad;
+    box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+    transform: translateY(-2px);
+    transition: all 0.25s 0s ease-out;
+}
+
+div.cards {
+    margin: 80px auto;
+    color: #4f585e;
+    width: 80%;
+    text-align: center;
+    margin-left: 200px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+div.card {
+    display: inline-block;
+    margin: 8px;
+    padding-top: 5pxl;
+    max-width: 280px;
+    perspective: 1000;
+    position: relative;
+    text-align: left;
+    transition: all 0.3s 0s ease-in;
+    z-index: 1;
+    -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, .8));
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, .8));
+    margin-bottom: 20px;
+}
+
+
+div.card img {
+    max-width: 280px;
+}
+
+div.card div.card-title {
+
+    padding: 6px 15px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+div.card div.card-title a.toggle-info {
+    border-radius: 32px;
+    height: 32px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 32px;
+}
+
+div.card div.card-title a.toggle-info span {
+    background: gray;
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 16px;
+    transition: all 0.15s 0s ease-out;
+    width: 12px;
+}
+
+div.card div.card-title a.toggle-info span.left {
+    right: 14px;
+    transform: rotate(45deg);
+}
+
+div.card div.card-title a.toggle-info span.right {
+    left: 14px;
+    transform: rotate(-45deg);
+}
+
+div.card div.card-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin: 0;
+    padding: 0;
+}
+
+div.card div.card-title h2 small {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+div.card div.card-description {
+    padding: 0 15px 10px;
+    position: relative;
+    font-size: 14px;
+}
+
+div.card div.card-actions {
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+    padding: 10px 15px 20px;
+    text-align: center;
+}
+
+div.card div.card-flap {
+    background: gray;
+    position: absolute;
+    width: 100%;
+    transform-origin: top;
+    transform: rotateX(-90deg);
+}
+
+div.card div.flap1 {
+    transition: all 0.3s 0.3s ease-out;
+    z-index: -1;
+}
+
+div.card div.flap2 {
+    transition: all 0.3s 0s ease-out;
+    z-index: -2;
+}
+
+div.cards.showing div.card {
+    cursor: pointer;
+    opacity: 0.6;
+    transform: scale(0.88);
+}
+
+.no-touch div.cards.showing div.card:hover {
+    opacity: 0.94;
+    transform: scale(0.92);
+}
+
+div.card.show {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+
+div.card.show div.card-title a.toggle-info {
+    background: #ff6666 !important;
+}
+
+div.card.show div.card-title a.toggle-info span {
+    top: 15px;
+}
+
+div.card.show div.card-title a.toggle-info span.left {
+    right: 10px;
+}
+
+div.card.show div.card-title a.toggle-info span.right {
+    left: 10px;
+}
+
+div.card.show div.card-flap {
+    background: #ffffff;
+    transform: rotateX(0deg);
+}
+
+div.card.show div.flap1 {
+    transition: all 0.3s 0s ease-out;
+}
+
+div.card.show div.flap2 {
+    transition: all 0.3s 0.2s ease-out;
+}
+
+.card-title {
+    background-color: white;
+}
+
+.card {
+    background-color: white
+}
+
+.teiki_b btn {}
+
+.toggle-info a.btn {
+    background: white;
+}
+
+.card a.btn {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    display: inline-block;
+    padding: 6px 30px 8px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.1s 0s ease-out;
+}
+
+
+/**/
+
+
+.title-box {
+    width: 95%;
+    ;
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Bourgone {
+    background-color: rgba(255, 0, 0, 0.2)
+}
+
+.Aruet {
+    background-color: rgba(186, 0, 255, 0.2)
+}
