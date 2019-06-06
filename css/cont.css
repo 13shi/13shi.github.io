@@ -1,6 +1,6 @@
 .c-cont {
     text-align: center;
-    line-height: 0.5;
+    line-height: 1;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -10,11 +10,13 @@
 
 .box1 {
     text-align: center;
-    line-height: 0.5;
+    line-height: 1;
     font-family: 'Sawarabi Mincho', sans-serif;
     margin-left: 40px;
     margin-bottom: 60px;
 }
+
+.box1 p{}
 
 .skeb {
     text-align: center;
