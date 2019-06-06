@@ -8,7 +8,7 @@ body {
 }
 
 .cont-s {
-    line-height: 0.5;
+    line-height: 1;
 }
 
 .cont img {
@@ -46,7 +46,7 @@ body {
 
 
 .cont {
-    line-height: 0.5
+    line-height: 01;
 }
 
 
@@ -272,3 +272,8 @@ div.card.show div.flap2 {
 .Aruet {
     background-color: rgba(186, 0, 255, 0.2)
 }
+
+
+.teiki{display: none;}
+.teiki_b{display: none;}
+.c-box{display: none;}

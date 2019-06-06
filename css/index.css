@@ -43,7 +43,7 @@
 }
 
 .contents .wrap {
-    padding: 40vh 0 200px;
+    padding:200px 100px;
     position: relative;
     z-index: 2;
 }

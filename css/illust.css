@@ -1,0 +1,39 @@
+.photo-box {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.lbox {
+    width: 30%;
+    max-width: 300px;
+    height: 200px;
+    background-color: #2f2f2f;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(20px 10px 4px #656565);
+    -moz-filter: drop-shadow(20px 10px 4px #656565);
+    -ms-filter: drop-shadow(20px 10px 4px #656565);
+    filter: drop-shadow(20px 10px 4px #656565);
+}
+
+.lbox a {
+    display: block;
+}
+
+.lbox img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.top h4 {
+    margin-top: 70px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 5px;
+}

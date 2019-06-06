@@ -36,9 +36,10 @@
 }
 
 .btn {
-    background-color: #cecece;
-    padding: 10px;
+    background-color: rgba(206, 206, 206, 0.34);
+    padding: 5px;
     box-shadow: 2px 2px 2px;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -187,4 +188,11 @@ header {
 
 .pricing__action a:hover {
     text-shadow: none
+}
+
+
+.teiki-w{width: 70%; 
+      margin: 0 0 0 auto;
+        color: #212121;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }

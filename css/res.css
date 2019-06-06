@@ -67,6 +67,7 @@
     top: 0;
     right: 0;
     margin-right: 20px;
+    margin-top: -100px;
 }
 
 .cont {
@@ -90,3 +91,7 @@ div.cards {
 .text-box {
     width: 480px;
 }
+
+.top h4{margin-top: 150px;}
+
+.lbox{margin-bottom: 40px;}
