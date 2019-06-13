@@ -6,7 +6,6 @@
     margin: 0 auto 3em;
 }
 
-
 .pricing__item {
     position: relative;
 
@@ -16,12 +15,9 @@
     flex: 0 1 70%;
 }
 
-
-
 .pricing__feature-list {
     text-align: left;
 }
-
 
 .pricing__action {
     color: inherit;
@@ -32,7 +28,6 @@
 .pricing__action:focus {
     outline: none;
 }
-
 
 /* Sonam */
 .pricing--sonam .pricing__item {
@@ -48,7 +43,6 @@
 .pricing--sonam .pricing__item:hover {
     background: #f5f5f5;
 }
-
 
 .pricing--sonam .pricing__title {
     font-size: 1.5em;
@@ -69,14 +63,12 @@
     color: #363636;
 }
 
-
 .pricing--sonam .pricing__feature-list {
     margin: 0;
     padding: 1em 1em 1em;
     line-height: 1;
     text-align: center;
 }
-
 
 .pricing--sonam .pricing__action {
     font-weight: bold;
@@ -86,7 +78,6 @@
     background: #E06060;
     transition: background 0.3s;
 }
-
 
 .pricing--sonam .pricing__action:hover,
 .pricing--sonam .pricing__action:focus {

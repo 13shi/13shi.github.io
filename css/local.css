@@ -13,6 +13,7 @@ html {
 
 a {
     transition: color 0.3s ease 0s;
+    text-decoration: none;
 }
 
 a:link {
@@ -29,7 +30,10 @@ a:visited {
     color: white;
 }
 
-p{margin: 5px;line-height: 1;}
+p {
+    margin: 5px;
+    line-height: 1;
+}
 
 body {
     margin: 0 auto;
@@ -60,7 +64,7 @@ a {
     transform: translateY(-50%);
     font-family: 'Lobster', cursive;
     line-height: 3;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 ul {
@@ -82,7 +86,6 @@ ul {
     margin-bottom: 0px;
 }
 
-
 footer {
     margin-top: 30px;
     height: 40px;
@@ -93,7 +96,6 @@ footer {
     text-align: center;
     bottom: 0;
 }
-
 
 body:after {
     position: fixed;
@@ -113,8 +115,6 @@ body:after {
     margin-left: 0px;
     margin-top: 20px;
 }
-
-
 
 .side {
     position: relative;
@@ -145,7 +145,6 @@ img.image-round1 {
     position: absolute;
     margin-left: 20px;
 }
-
 
 .bold {
     font-weight: bold;
@@ -212,4 +211,3 @@ img.image-round1 {
     transform: translateY(6px);
     transition-duration: .1s;
 }
-

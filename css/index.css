@@ -48,7 +48,6 @@
     z-index: 2;
 }
 
-
 /* design*/
 
 #content01 .wrap {
@@ -67,7 +66,6 @@
     background-color: rgba(121, 142, 64, 0.41);
 }
 
-
 .text-box {
     position: relative;
     right: auto 0;
@@ -75,9 +73,20 @@
     padding-bottom: 30px;
     padding-left: 20px;
     width: 480px;
+    height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     margin: auto;
+}
+
+
+.text-box a  {display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+ margin-left: -20px;
+    margin-top:20px;
+    
 }
 
 .text-box:hover {
@@ -89,17 +98,9 @@
 .text-box .catch {
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
-.catch a {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 .text-box .copy {
     margin: 0;
@@ -107,8 +108,11 @@
     line-height: 2;
     color: white;
     font-family: 'Sawarabi Mincho', sans-serif;
+    line-height: 0;
 }
 
 .side {
     display: none
 }
+
+

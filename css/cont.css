@@ -16,17 +16,16 @@
     margin-bottom: 60px;
 }
 
-.box1 p{}
 
 .skeb {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 40px;
     font-weight: bold;
 }
 
 .fra {
-    text-align: center;
+    
 }
 
 .skeb a {
@@ -47,8 +46,6 @@
 .btn:hover {
     box-shadow: none;
 }
-
-
 
 .pricing {
     display: flex;
@@ -140,7 +137,6 @@ header {
     text-align: center;
 }
 
-
 .c-cont {
     padding-top: 80px;
 }
@@ -168,9 +164,7 @@ header {
 .wrapper {
     display: flex;
     justify-content: center;
-    /*左右中央揃え*/
     align-items: center;
-    /*上下中央揃え*/
 }
 
 .bold {
@@ -193,8 +187,20 @@ header {
 }
 
 
-.teiki-w{width: 70%; 
-      margin: 0 0 0 auto;
-        color: #212121;
+.teiki-w {
+    width: 65%;
+    margin: auto;
+    color: #212121;
     font-family: 'Sawarabi Mincho', sans-serif;
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 40px;
 }
+
+.teiki-w h4 {
+    line-height: 0;
+}
+
+.wrapper{margin-top: 40px;}

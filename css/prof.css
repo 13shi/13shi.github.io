@@ -12,8 +12,7 @@ body {
 }
 
 .cont img {
-    margin-left: 50px;
-    margin-top: 20px;
+
     -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .8));
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .8));
 }
@@ -44,8 +43,6 @@ body {
     font-weight: bold;
     padding-top: 15px;
 }
-
-
 
 .cont {
     line-height: 01;
@@ -254,9 +251,7 @@ div.card.show div.flap2 {
     transition: all 0.1s 0s ease-out;
 }
 
-
 /**/
-
 
 .title-box {
     width: 95%;
