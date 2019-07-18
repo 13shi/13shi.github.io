@@ -8,7 +8,6 @@
 }
 
 .fra iframe {
- 
     top: 0;
     left: 0;
     width: 70%;
@@ -19,7 +18,6 @@
     display: block;
     z-index: 99999;
     height: 80px;
-
 }
 
 .side ul {
@@ -58,8 +56,6 @@ img.image-round1 {
     display: none;
 }
 
-
-
 .menu2 img {
     margin-top: 0px;
 }
@@ -84,12 +80,10 @@ img.image-round1 {
     padding-top: 50px;
 }
 
-
 div.cards {
     margin-left: 0px;
     margin: auto;
 }
-
 
 .contents .wrap {
     padding: 0;
@@ -118,7 +112,6 @@ div.cards {
     margin-bottom: 40px;
 }
 
-
 .lb-outerContainer {
     margin: 150px auto auto auto;
 }
@@ -135,7 +128,8 @@ footer p {
     width: 70%;
     margin: auto;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -151,7 +145,9 @@ footer p {
     margin-left: 0px;
 }
 
-.box2{margin-left: -50px;}
+.box2 {
+    margin-left: -50px;
+}
 
 .skeb {
     margin-left: 0px;

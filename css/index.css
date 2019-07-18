@@ -18,9 +18,13 @@
 .top p {
     font-family: 'Sawarabi Mincho', sans-serif;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 15px;
 }
+
+.top-cont{font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 40px;}
 
 /* init */
 .background {
@@ -43,7 +47,7 @@
 }
 
 .contents .wrap {
-    padding:200px 100px;
+    padding: 200px 100px;
     position: relative;
     z-index: 2;
 }
@@ -79,14 +83,13 @@
     margin: auto;
 }
 
-
-.text-box a  {display: block;
+.text-box a {
+    display: block;
     position: absolute;
     width: 100%;
     height: 100%;
- margin-left: -20px;
-    margin-top:20px;
-    
+    margin-left: -20px;
+    margin-top: 20px;
 }
 
 .text-box:hover {
@@ -101,18 +104,15 @@
     line-height: 2;
 }
 
-
 .text-box .copy {
     margin: 0;
     padding-left: 15px;
-    line-height: 2;
+    line-height: 1;
     color: white;
     font-family: 'Sawarabi Mincho', sans-serif;
-    line-height: 0;
+    
 }
 
 .side {
     display: none
 }
-
-

@@ -1,0 +1,6 @@
+
+.img404{width: 100%; margin-top: 30px;
+}
+
+img{display: block; //ブロック要素化
+    margin:0 auto;}
