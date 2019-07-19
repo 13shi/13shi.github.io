@@ -1,3 +1,5 @@
+body{font-family: 'Sawarabi Mincho', sans-serif;}
+
 .c-cont {
     text-align: center;
     line-height: 1;
@@ -5,13 +7,10 @@
     margin-bottom: 50px;
     margin-left: 20px;
     color: #212121;
-    font-family: 'Sawarabi Mincho', sans-serif;
 }
-
 .box1 {
     text-align: center;
     line-height: 1;
-    font-family: 'Sawarabi Mincho', sans-serif;
     margin-left: 40px;
 }
 
@@ -30,7 +29,6 @@
 }
 
 .skeb p {
-    font-family: 'Sawarabi Mincho', sans-serif;
     color: #333333;
 }
 
@@ -41,7 +39,6 @@
 .skeb-b p {
     color: #333;
     text-align: center;
-    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .skeb a:hover {
@@ -195,7 +192,6 @@ header {
     width: 65%;
     margin: auto;
     color: #212121;
-    font-family: 'Sawarabi Mincho', sans-serif;
     background-color: white;
     padding: 13px;
     border-radius: 5px;
@@ -217,7 +213,6 @@ header {
 }
 
 .acc {
-    font-family: 'Sawarabi Mincho', sans-serif;
     text-align: center;
 }
 
@@ -249,6 +244,10 @@ span::before {
     margin-top: -20px
 }
 
-.teiki-re a{color: #212121;
-    font-family: 'Sawarabi Mincho', sans-serif;transition : all 300ms;
+.teiki-w a{color: #212121;
+    font-family: 'Sawarabi Mincho', sans-serif;transition : all 300ms;font-size:16px;line-height: 1;margin-left: 35px;
 }
+
+.teiki-w a:hover{text-shadow: none}
+.teiki-re a{font-family:  'Sawarabi Mincho', sans-serif}
+.teiki-re a:hover{text-shadow: none;}
