@@ -5,6 +5,7 @@
 
 body {
     scroll-padding-top: 70px;
+    
 }
 
 html {
@@ -23,7 +24,7 @@ a:link {
 
 a:hover {
     color: gray;
-    text-shadow: 5px 5px 1px rgba(60, 60, 60, 0.61);
+
 }
 
 a:visited {
@@ -44,7 +45,7 @@ body {
     top: 0;
     left: 0;
     width: 150px;
-    background-color: rgba(10, 10, 10, 0.87);
+    background-color: rgb(10, 10, 10);
     height: 100%;
     z-index: 3;
 }
@@ -62,7 +63,7 @@ a {
     -webkit-transform: translateY(-50%);
     /* Safari用 */
     transform: translateY(-50%);
-    font-family: 'Lobster', cursive;
+    font-family: 'Anton';
     line-height: 3;
     font-size: 20px;
 }
@@ -90,7 +91,7 @@ footer {
     margin-top: 30px;
     height: 40px;
     width: 100%;
-    font-family: 'Lobster', cursive, 'Sawarabi Mincho', sans-serif;
+    font-family:  'Anton', 'Sawarabi Mincho', sans-serif;
     font-size: 13px;
     letter-spacing: 0.5px;
     text-align: center;
@@ -105,7 +106,11 @@ body:after {
     height: 100%;
     content: "";
     background: #f89174;
-    background-image: linear-gradient(-20deg, #efefef 0%, #2f2f2f 100%);
+    background: linear-gradient(-20deg, rgba(255, 255, 255, 0) 0%, #2f2f2f 100%), url(../img/back.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     z-index: -2;
 }
 
@@ -123,7 +128,7 @@ body:after {
     z-index: 3;
     top: 0;
     left: 0;
-    background-color: rgba(10, 10, 10, 0.87);
+    background-color: rgba(28, 28, 28, 0.94);
     position: fixed;
     display: none;
 }

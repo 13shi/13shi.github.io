@@ -1,4 +1,6 @@
-body{font-family: 'Sawarabi Mincho', sans-serif;}
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
 
 .c-cont {
     text-align: center;
@@ -8,6 +10,7 @@ body{font-family: 'Sawarabi Mincho', sans-serif;}
     margin-left: 20px;
     color: #212121;
 }
+
 .box1 {
     text-align: center;
     line-height: 1;
@@ -45,9 +48,6 @@ body{font-family: 'Sawarabi Mincho', sans-serif;}
     text-shadow: none;
     transition: all 500ms;
 }
-
-
-
 
 .pricing {
     display: flex;
@@ -88,7 +88,6 @@ body{font-family: 'Sawarabi Mincho', sans-serif;}
     cursor: default;
     border-radius: 10px;
     background: #dddddd;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 15px 30px -10px rgba(0, 0, 0, 0.3);
     transition: background 0.3s;
 }
 
@@ -159,7 +158,6 @@ header {
     cursor: default;
     border-radius: 10px;
     background: #dddddd;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 15px 30px -10px rgba(0, 0, 0, 0.3);
     color: #2e2e2e;
 }
 
@@ -205,6 +203,7 @@ header {
 
 .wrapper {
     margin-top: 40px;
+    height: 300px;
 }
 
 .teiki-title {
@@ -244,10 +243,23 @@ span::before {
     margin-top: -20px
 }
 
-.teiki-w a{color: #212121;
-    font-family: 'Sawarabi Mincho', sans-serif;transition : all 300ms;font-size:16px;line-height: 1;margin-left: 35px;
+.teiki-w a {
+    color: #212121;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    transition: all 300ms;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 35px;
 }
 
-.teiki-w a:hover{text-shadow: none}
-.teiki-re a{font-family:  'Sawarabi Mincho', sans-serif}
-.teiki-re a:hover{text-shadow: none;}
+.teiki-w a:hover {
+    text-shadow: none
+}
+
+.teiki-re a {
+    font-family: 'Sawarabi Mincho', sans-serif
+}
+
+.teiki-re a:hover {
+    text-shadow: none;
+}

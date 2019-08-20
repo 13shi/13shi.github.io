@@ -12,8 +12,6 @@ body {
 }
 
 .cont img {
-    -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .8));
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .8));
 }
 
 .cont img {
@@ -30,7 +28,6 @@ body {
     background-color: gray;
     padding: 10px 25px;
     color: currentColor;
-    box-shadow: 5px 5px 5px #414141;
     border-radius: 5px;
     transition: all 0.5s;
     font-family: 'Lobster', cursive, 'Sawarabi Mincho', sans-serif;
