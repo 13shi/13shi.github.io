@@ -2,7 +2,7 @@
     text-align: center;
     color: white;
     font-size: 40px;
-    font-family:  'Anton';
+    font-family: 'Anton';
     letter-spacing: 25px;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -114,4 +114,8 @@
 
 .side {
     display: none
+}
+
+footer small {
+    font-family: 'Sawarabi Mincho', sans-serif;
 }

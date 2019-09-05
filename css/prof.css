@@ -9,9 +9,8 @@ body {
 
 .cont-s {
     line-height: 1;
-}
-
-.cont img {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cont img {
@@ -26,11 +25,16 @@ body {
 
 .cont a {
     background-color: gray;
-    padding: 10px 25px;
-    color: currentColor;
-    border-radius: 5px;
+    padding: 10px 45px;
+    margin-top: 20px;
+    color: white;;
     transition: all 0.5s;
     font-family: 'Lobster', cursive, 'Sawarabi Mincho', sans-serif;
+    font-size: 15px;
+}
+
+.cont_a{
+    margin-top: 20px;
 }
 
 .cont a:hover {
