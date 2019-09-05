@@ -8,7 +8,6 @@
 
 .pricing__item {
     position: relative;
-
     flex-direction: column;
     align-items: stretch;
     text-align: center;
@@ -87,4 +86,6 @@
     font-family: 'Sawarabi Mincho', sans-serif;
 }
 
-.bot-b a{color: #2e2e2e;}
+.bot-b a {
+    color: #2e2e2e;
+}
