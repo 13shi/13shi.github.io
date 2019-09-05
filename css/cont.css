@@ -21,13 +21,22 @@ body {
     text-align: center;
     margin-bottom: 20px;
     margin-left: 40px;
+    margin-top: 150px;
 }
 
-.skeb a {
+.skeb2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.skeb a,.skeb2 a {
     color: #333333;
     font-weight: bold;
     text-decoration: underline;
 }
+
 
 .skeb p {
     color: #333333;
@@ -45,6 +54,14 @@ body {
 .skeb a:hover {
     text-shadow: none;
     transition: all 500ms;
+}
+
+.atte a{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .pricing {
@@ -242,20 +259,22 @@ span::before {
 }
 
 .teiki-w a {
-    color: #212121;
+    color: #4A24FF;
     font-family: 'Sawarabi Mincho', sans-serif;
     transition: all 300ms;
     font-size: 16px;
     line-height: 1;
     margin-left: 35px;
+    
 }
 
 .teiki-w a:hover {
-    text-shadow: none
+    text-shadow: none;
+    text-decoration: underline;
 }
 
 .teiki-re a {
-    font-family: 'Sawarabi Mincho', sans-serif
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .teiki-re a:hover {
