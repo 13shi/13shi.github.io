@@ -1,6 +1,9 @@
+.body-cont{
+    width: 100%;
+}
+
 .photo-box {
     width: 80%;
-    position: relative;
     margin: auto;
     display: flex;
     justify-content: flex-end;
@@ -32,4 +35,20 @@
     color: white;
     font-size: 26px;
     letter-spacing: 5px;
+}
+
+
+h4{
+    margin-top: 40px;
+    font-family:  'Lobster', cursive;
+    color: white;
+    font-size:26px;
+    letter-spacing: 5px;
+}
+
+
+.i-video{
+width: 90%;
+height: 350px;
+   margin: auto;
 }

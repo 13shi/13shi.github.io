@@ -113,9 +113,13 @@
 }
 
 .side {
-    display: none
+    display: none;
 }
 
 footer small {
     font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.movie {
+    margin-top: 80px;
 }
