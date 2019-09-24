@@ -1,13 +1,9 @@
-.body-cont{
-    width: 100%;
-}
 
 .photo-box {
-    width: 80%;
-    margin: auto;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;
+    justify-content:center;
 }
 
 .lbox {
