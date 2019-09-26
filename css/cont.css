@@ -210,6 +210,7 @@ header {
     border-radius: 5px;
     margin-left: 25%;
     margin-top: 70px;
+    padding-bottom: 30px;
 }
 
 .teiki-w h4 {
@@ -222,6 +223,7 @@ header {
 }
 
 .teiki-title {
+    text-align: center;
     color: #E06060;
     font-size: 18px;
 }
@@ -279,4 +281,63 @@ span::before {
 
 .teiki-re a:hover {
     text-shadow: none;
+}
+
+
+.cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 80%;
+    max-width: 800px;
+	margin: 0 auto;
+	color: #212121;
+}
+.cp_actab input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.cp_actab label {
+	font-weight: bold;
+	line-height: 3;
+	position: relative;
+	display: block;
+	padding: 0 0 0 1em;
+	cursor: pointer;
+	margin: 0 0 1px 0;
+	background: white;
+}
+.cp_actab .cp_actab-content {
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.35s;
+	transition: max-height 0.35s;
+	color: #333333;
+	background: #dedede;
+}
+.cp_actab .cp_actab-content p {
+	margin: 1em;
+}
+/* :checked */
+.cp_actab input:checked ~ .cp_actab-content {
+	max-height: 20em;
+}
+/* Icon */
+.cp_actab label::after {
+	line-height: 3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 3em;
+	height: 3em;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	text-align: center;
+}
+.cp_actab input[type=checkbox] + label::after {
+	content: '+';
+}
+.cp_actab input[type=checkbox]:checked + label::after {
+	transform: rotate(315deg);
 }
