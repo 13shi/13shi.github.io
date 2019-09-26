@@ -1,70 +1,56 @@
-/*
-Copyright Jed Trow
-Released under the MIT license
-http://opensource.org/licenses/mit-license.php
-*/
-
-
-.graph-cont{
-  width: calc(100% - 40px);
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+.cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	color: #ffffff;
 }
-h1,h2,h3{
-  text-align: center;
-  color: #34495e;
+.cp_actab input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
 }
-.bar{
-  height: 30px;
-  max-width: 800px;
-  margin: 0 auto 10px auto;
-  line-height: 30px;
-  font-size: 16px;
-  color: white;
-  padding: 0 0 0 10px;
-  position: relative;
+.cp_actab label {
+	font-weight: bold;
+	line-height: 3;
+	position: relative;
+	display: block;
+	padding: 0 0 0 1em;
+	cursor: pointer;
+	margin: 0 0 1px 0;
+	background: #da3c41;
 }
-.bar::before{
-  content: '';
-  width: 100%;
-  position: absolute;
-  left: 0;
-  height: 30px;
-  top: 0;
-  z-index: -2;
-  background: #ecf0f1;
+.cp_actab .cp_actab-content {
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.35s;
+	transition: max-height 0.35s;
+	color: #333333;
+	background: #f1c6c6;
 }
-.bar::after{
-  content: '';
-  background: #2ecc71;
-  height: 30px;
-  transition: 0.7s;
-  display: block;
-  width: 100%;
-  -webkit-animation: bar-before 1 1.8s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.cp_actab .cp_actab-content p {
+	margin: 1em;
 }
-.bar1::after{
-  max-width: 60%;
+/* :checked */
+.cp_actab input:checked ~ .cp_actab-content {
+	max-height: 20em;
 }
-.bar2::after{
-  max-width: 72%;
+/* Icon */
+.cp_actab label::after {
+	line-height: 3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 3em;
+	height: 3em;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	text-align: center;
 }
-.bar3::after{
-  max-width: 47%;
+.cp_actab input[type=checkbox] + label::after {
+	content: '+';
 }
-.bar4::after{
-  max-width: 20%;
-}
-@-webkit-keyframes bar-before{
-  0%{
-    width: 0px;
-  }
-  100%{
-    width: 100%;
-  }
+.cp_actab input[type=checkbox]:checked + label::after {
+	transform: rotate(315deg);
 }

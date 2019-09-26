@@ -44,6 +44,16 @@ body {
     color: white;
 }
 
+.prf-c a{
+    background: none;
+    margin: -35px;
+    color: #4f585e;
+}
+
+.prf-c a:hover{
+    background: none;
+}
+
 .tit {
     font-weight: bold;
     padding-top: 15px;
@@ -53,6 +63,12 @@ body {
     line-height: 01;
 }
 
+.cont-box0{
+    margin-top: 40px;
+}
+.cont-box0 p{
+    margin-top: 15px;
+}
 
 /* 
 Copyright Andrew Canham
