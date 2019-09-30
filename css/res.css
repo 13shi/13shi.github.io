@@ -157,4 +157,10 @@ footer p {
     padding-left: 0px;
 }
 
-.img404 img{width:100%;bottom: 0;padding-left: 0;}
+.img404 img {
+    width: 100%;
+    bottom: 0;
+    padding-left: 0;
+}
+
+.fas{margin-top: 30px;}

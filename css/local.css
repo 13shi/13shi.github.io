@@ -5,7 +5,6 @@
 
 body {
     scroll-padding-top: 70px;
-    
 }
 
 html {
@@ -23,14 +22,15 @@ a:link {
     color: ;
 }
 
-a:hover {
-    color: gray;
-
-}
-
 a:visited {
     color: white;
 }
+
+a:hover {
+    color: gray;
+}
+
+
 
 p {
     margin: 5px;
@@ -50,6 +50,8 @@ body {
     height: 100%;
     z-index: 3;
 }
+
+
 
 header {
     z-index: 999;
@@ -72,6 +74,8 @@ a {
 ul {
     list-style: none;
 }
+
+
 
 .menu {
     position: absolute;
@@ -116,10 +120,9 @@ body:after {
 }
 
 .fas {
-    border-radius: 50%;
-    position: relative;
+    display: block;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .side {
@@ -140,14 +143,6 @@ body:after {
     padding: 5px;
 }
 
-
-
-.fas {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    margin-left: 20px;
-}
 
 .bold {
     font-weight: bold;
