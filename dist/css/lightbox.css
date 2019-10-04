@@ -43,7 +43,7 @@ body.lb-disable-scrolling {
   *zoom: 1;
   width: 250px;
   height: 250px;
-  margin: 0 auto;
+  margin: 50px auto auto auto ;
   border-radius: 4px;
 
   /* Background color behind image.
@@ -200,4 +200,10 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.cover {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
 }
