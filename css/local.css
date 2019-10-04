@@ -114,8 +114,7 @@ body:after {
 }
 
 .fas {
-    display: block;
-    margin-left: 0px;
+    display: inline-block;
     margin-top: 0px;
 }
 

@@ -24,7 +24,6 @@
     float: right;
     margin-right: 15px;
     font-size: 20px;
-    margin-top: -60px;
 }
 
 .side a {
@@ -165,5 +164,7 @@ footer p {
 }
 
 .fas {
-    margin-top: 30px;
+    padding-top: 20px;
+    float: left;
+    padding-left: 20px;
 }
