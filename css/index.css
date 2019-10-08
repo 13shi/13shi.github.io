@@ -5,7 +5,7 @@
     margin-top: 200px;
     margin-bottom: 100px;
     font-weight: 100;
-    font-size:40px;
+    font-size: 40px;
     letter-spacing: 1px;
 }
 
@@ -123,4 +123,9 @@ footer small {
 
 .movie {
     margin-top: 80px;
+}
+
+
+@media screen and (min-width:750px) {
+    .top, .top-cont, .contents, footer p{margin-left: 100px;}
 }

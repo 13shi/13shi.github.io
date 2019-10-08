@@ -220,7 +220,6 @@ header {
     background-color: white;
     padding: 13px;
     border-radius: 5px;
-    margin-left: 25%;
     margin-top: 70px;
     padding-bottom: 30px;
 }
@@ -361,4 +360,10 @@ span::before {
 }
 .cp_actab input[type=checkbox]:checked + label::after {
 	transform: rotate(315deg);
+}
+
+
+
+@media screen and (min-width:750px) {
+    .skeb, .box1, .skeb2, .teiki-box, .wrapper{margin-left: 150px}
 }

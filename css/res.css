@@ -168,3 +168,12 @@ footer p {
     float: left;
     padding-left: 20px;
 }
+
+.skeb img{
+    width: 80%;
+}
+
+.wrapper img{
+    width: 45%;
+    margin: auto;
+}

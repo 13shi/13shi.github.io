@@ -88,4 +88,10 @@
 
 .bot-b a {
     color: #2e2e2e;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+@media screen and (min-width:750px) {
+    .cont ,.bot-b, small{margin-left: 150px;}
 }

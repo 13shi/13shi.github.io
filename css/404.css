@@ -1,5 +1,6 @@
-.img404 {
-    display: flex;
-    justify-content: space-around;
+.img404 img {
     margin-top: 40%;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
 }
