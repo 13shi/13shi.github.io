@@ -1,3 +1,7 @@
+body{
+    text-align: center;font-family: 'Sawarabi Mincho', sans-serif;
+}
+
 .pricing {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +16,7 @@
     align-items: stretch;
     text-align: center;
     flex: 0 1 70%;
+    
 }
 
 .pricing__feature-list {
@@ -82,13 +87,8 @@
     background: #BD3C3C;
 }
 
-.bot-b {
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
-
 .bot-b a {
     color: #2e2e2e;
-    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 

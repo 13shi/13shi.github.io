@@ -1,9 +1,12 @@
-.top h3 {
+body{
     text-align: center;
+    font-family:  'Anton' ,'Sawarabi Mincho', sans-serif;
+}
+
+.top h3 {
     color: white;
-    font-family: 'Anton';
     margin-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     font-weight: 100;
     font-size: 40px;
     letter-spacing: 1px;
@@ -14,14 +17,11 @@
 }
 
 .top p {
-    font-family: 'Sawarabi Mincho', sans-serif;
-    text-align: center;
     font-size: 15px;
 }
 
 .top-cont {
-    font-family: 'Sawarabi Mincho', sans-serif;
-    text-align: center;
+
     font-size: 13px;
     margin-bottom: 40px;
 }
@@ -110,7 +110,6 @@
     padding-left: 15px;
     line-height: 1;
     color: white;
-    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .side {
@@ -127,5 +126,10 @@ footer small {
 
 
 @media screen and (min-width:750px) {
-    .top, .top-cont, .contents, footer p{margin-left: 100px;}
+    .top,
+    .top-cont,
+    .contents,
+    footer p {
+        margin-left: 100px;
+    }
 }
