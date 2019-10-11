@@ -1,9 +1,9 @@
 body {
     font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
 }
 
 .c-cont {
-    text-align: center;
     line-height: 1;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -12,16 +12,20 @@ body {
 }
 
 .box1 {
-    text-align: center;
     line-height: 1;
     margin-left: 40px;
 }
 
 .skeb {
-    text-align: center;
     margin-bottom: 20px;
-    margin-left: 40px;
     margin-top: 150px;
+}
+
+.skeb a{
+    text-decoration: none;
+    font-size:16px;
+    font-family:'Sawarabi Mincho', sans-serif;
+    padding: 0px 5px;
 }
 
 .skeb img{
@@ -32,23 +36,17 @@ span{
     font-size:15px;
 }
 
-span:hover{
-   
-}
-
 .skeb2{
-    text-align: center;
+    color: #333333;
     margin-bottom: 20px;
-    margin-left: 40px;
     margin-top: 20px;
 }
 
-.skeb a,.skeb2 a {
-    color: #333333;
-    font-weight: bold;
-    text-decoration: underline;
+.skeb2 a {
+    color: #ffffff;
+    font-family:'Sawarabi Mincho', sans-serif;
+    font-size:17px;
 }
-
 
 .skeb p {
     color: #333333;
@@ -63,9 +61,10 @@ span:hover{
     text-align: center;
 }
 
-.skeb a:hover {
+.skeb a:hover , .skeb2 a:hover{
     text-shadow: none;
     transition: all 500ms;
+    color:  #2e2e2e;
 }
 
 .atte a{
@@ -161,10 +160,6 @@ span:hover{
     background: #BD3C3C;
 }
 
-header {
-    text-align: center;
-}
-
 .c-cont {
     padding-top: 80px;
 }
@@ -181,7 +176,6 @@ header {
     background-color: white;
     margin: 1.5em;
     padding: 1.5em;
-    text-align: center;
     cursor: default;
     border-radius: 10px;
     background: #dddddd;
@@ -234,17 +228,9 @@ header {
 }
 
 .teiki-title {
-    text-align: center;
     color: #E06060;
     font-size: 18px;
-}
-
-.acc {
-    text-align: center;
-}
-
-.acc a {
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: bold;
 }
 
 span {
@@ -287,13 +273,11 @@ span::before {
 
 .teiki-re a {
     font-family: 'Sawarabi Mincho', sans-serif;
-    
 }
 
 .teiki-re a:hover {
     text-shadow: none;
 }
-
 
 .cp_actab {
 	position: relative;
@@ -302,6 +286,7 @@ span::before {
     max-width: 800px;
 	margin: 0 auto;
 	color: #212121;
+    text-align: left
 }
 .cp_actab input {
 	position: absolute;
@@ -310,13 +295,14 @@ span::before {
 }
 .cp_actab label {
 	font-weight: bold;
-	line-height: 2.5;
+	line-height: 3;
 	position: relative;
 	display: block;
-	padding: 0 0 0 1em;
 	cursor: pointer;
 	margin: 0 0 1px 0;
+    color: #333333;
 	background: white;
+    border-bottom: dashed 2px rgb(168, 168, 168);
 }
 
 .cp_actab .cp_actab-content {
@@ -328,6 +314,7 @@ span::before {
 	background: #f0f0f0;
     border-radius: 10px;
     padding: 0px 15px;
+    margin-top: 8px;
 }
 
 .cp-padding{
@@ -346,14 +333,15 @@ span::before {
 .cp_actab label::after {
 	line-height: 3;
 	position: absolute;
-	top: 0;
+	top: -15px;
 	right: 0;
 	display: block;
-	width: 3em;
+	width: 1em;
 	height: 3em;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 	text-align: center;
+    font-size:25px;
 }
 .cp_actab input[type=checkbox] + label::after {
 	content: '+';
@@ -362,8 +350,10 @@ span::before {
 	transform: rotate(315deg);
 }
 
-
-
 @media screen and (min-width:750px) {
-    .skeb, .box1, .skeb2, .teiki-box, .wrapper{margin-left: 150px}
+    .skeb,.box1, .skeb2, .teiki-box, .wrapper{margin-left: 150px}
+}
+
+tab-one{
+    text-decoration: underline;
 }

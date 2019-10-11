@@ -1,11 +1,12 @@
 body{
     text-align: center;
-    font-family:  'Anton','Sawarabi Mincho', sans-serif;
+    font-family:  'Anton' ,'Sawarabi Mincho', sans-serif;
 }
 
 .cont {
     margin-top: 80px;
     font-family: 'Sawarabi Mincho', sans-serif;
+    color: #212121;
 }
 
 .cont-s {
@@ -24,19 +25,8 @@ body{
     font-size: 25px;
 }
 
-.cont a {
-    background-color: gray;
-    padding: 10px 45px;
-    margin-top: 20px;
-    color: white;;
-    transition: all 0.5s;
-    font-family: 'Lobster', cursive, 'Sawarabi Mincho', sans-serif;
-    font-size: 15px;
-}
 
-.cont_a{
-    margin-top: 20px;
-}
+
 
 .cont a:hover {
     background-color: #4f585e;
@@ -94,7 +84,6 @@ div.cards {
     margin: 80px auto;
     color: #4f585e;
     width: 80%;
-    text-align: center;
     margin-left: 200px;
     font-family: 'Sawarabi Mincho', sans-serif;
 }
@@ -119,7 +108,6 @@ div.card img {
 }
 
 div.card div.card-title {
-
     padding: 6px 15px 10px;
     position: relative;
     z-index: 0;
@@ -289,15 +277,7 @@ div.card.show div.flap2 {
     background-color: rgba(186, 0, 255, 0.2)
 }
 
-.teiki {
-    display: none;
-}
-
-.teiki_b {
-    display: none;
-}
-
-.c-box {
+.teiki, .teiki_b, .c-box{
     display: none;
 }
 
@@ -394,7 +374,16 @@ h1,h2,h3{
 }
 
 
-
 @media screen and (min-width:750px) {
     .cont, small{margin-left: 90px}
+}
+
+
+.cont a {
+    padding: 5px 40px;
+    margin-top: 20px;
+    color: #4f585e;
+    transition: all 0.5s;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 15px;
 }

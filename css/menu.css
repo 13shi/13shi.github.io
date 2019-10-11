@@ -1,5 +1,6 @@
-body{
-    text-align: center;font-family: 'Sawarabi Mincho', sans-serif;
+body {
+    text-align: center;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .pricing {
@@ -16,11 +17,6 @@ body{
     align-items: stretch;
     text-align: center;
     flex: 0 1 70%;
-    
-}
-
-.pricing__feature-list {
-    text-align: left;
 }
 
 .pricing__action {
@@ -63,7 +59,7 @@ body{
 
 .pricing--sonam .pricing__sentence {
     font-weight: bold;
-    color: #363636;
+    color: #212121;
 }
 
 .pricing--sonam .pricing__feature-list {
@@ -71,6 +67,7 @@ body{
     padding: 1em 1em 1em;
     line-height: 1;
     text-align: center;
+    color: #212121;
 }
 
 .pricing--sonam .pricing__action {
@@ -93,5 +90,9 @@ body{
 
 
 @media screen and (min-width:750px) {
-    .cont ,.bot-b, small{margin-left: 150px;}
+    .cont,
+    .bot-b,
+    small {
+        margin-left: 150px;
+    }
 }
