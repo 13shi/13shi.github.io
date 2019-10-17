@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     font-family: 'Sawarabi Mincho', sans-serif;
 }
 
@@ -92,7 +91,7 @@ body {
 @media screen and (min-width:750px) {
     .cont,
     .bot-b,
-    small {
+    small{
         margin-left: 150px;
     }
 }

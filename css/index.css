@@ -1,4 +1,4 @@
-body{
+html{
     text-align: center;
     font-family:  'Anton' ,'Sawarabi Mincho', sans-serif;
 }
@@ -112,13 +112,6 @@ body{
     color: white;
 }
 
-.side {
-    display: none;
-}
-
-footer small {
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
 
 @media screen and (min-width:750px) {
     .top,
@@ -128,3 +121,4 @@ footer small {
         margin-left: 100px;
     }
 }
+

@@ -30,7 +30,8 @@
     vertical-align: middle;
 }
 
-.top h4 {
+.top h4,
+.movie h4{
     margin-top: 70px;
     font-family: 'Lobster', cursive;
     color: white;
@@ -38,12 +39,8 @@
     letter-spacing: 5px;
 }
 
-h4 {
-    margin-top: 40px;
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 26px;
-    letter-spacing: 5px;
+.movie{
+        margin-bottom: 50px;
 }
 
 .i-video {
