@@ -83,7 +83,8 @@ body {
     background: #BD3C3C;
 }
 
-.bot-b a {
+.bot-b a,
+.bot-b p{
     color: #2e2e2e;
 }
 

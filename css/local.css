@@ -5,14 +5,17 @@
 body {
     margin: 0 auto;
     text-align: center;
-    font-family:  'Anton' ,'Sawarabi Mincho', sans-serif;
+    
 }
 
 html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
     text-align: center;
-    font-family:  'Anton' ,'Sawarabi Mincho', sans-serif;
+}
+
+body,
+hrml{font-family:'Anton','Sawarabi Mincho',sans-serif;
 }
 
 a {
@@ -22,7 +25,6 @@ a {
 }
 
 a:link {
-    text-decoration: none;
     color:white;
 }
 
@@ -34,11 +36,9 @@ a:hover {
     color: gray;
 }
 
-p,{
-    margin: 5px;
+p {
     line-height: 1;
-    color: #212121;;
-    font-family:'Sawarabi Mincho', sans-serif;
+    color: #212121;
     font-weight: 100;
 }
 
@@ -50,26 +50,33 @@ p,{
     background-color: rgb(10, 10, 10);
     height: 100%;
     z-index: 3;
+    line-height: 3;
 }
 
 header {
     z-index: 999;
 }
 
-header p,
-a {
+header a {
     margin: auto 0;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     /* Safari用 */
     transform: translateY(-50%);
-    line-height: 3;
+    line-height: ;
     font-size: 20px;
+    
+    
 }
 
 ul {
     list-style: none;
+}
+
+li a,
+small{
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .menu {
@@ -198,5 +205,12 @@ footer {
     margin-top: 20px;
     height: 30px;
     font-size:13px;
-    font-family:'Sawarabi Mincho', sans-serif;
 }
+
+
+.top-img img{
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+}
+

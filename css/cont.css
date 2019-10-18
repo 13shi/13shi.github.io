@@ -67,12 +67,17 @@ span{
     color:  #2e2e2e;
 }
 
-.atte a{
+.box1 p a, .bold, .not{
     font-family: 'Sawarabi Mincho', sans-serif;
     color: #212121;
+    line-height: 0.5;
+}
+
+.atte a{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: #2e2e2e;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
 }
 
 .pricing {
@@ -105,7 +110,6 @@ span{
 .pricing__action:focus {
     outline: none;
 }
-
 
 /* Sonam */
 .pricing--sonam .pricing__item {
@@ -357,3 +361,4 @@ span::before {
 tab-one{
     text-decoration: underline;
 }
+

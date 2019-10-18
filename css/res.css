@@ -1,3 +1,8 @@
+/* local */
+
+
+/* index */
+
 .fra {
     position: relative;
     width: 100%;
@@ -39,12 +44,12 @@
     line-height: 1;
 }
 
-.top p {
-    font-size: 15px;
-}
-
-.top-img {
-    margin-left: 0px;
+.side img{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 img.image-round1 {
@@ -116,9 +121,6 @@ div.cards {
     margin: 150px auto auto auto;
 }
 
-.sns {
-    display: none;
-}
 
 footer p {
     padding-bottom: 5px;
@@ -160,3 +162,4 @@ footer p {
 .skeb img{
     width: 80%;
 }
+

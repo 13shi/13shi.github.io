@@ -54,14 +54,9 @@ body{
     line-height: 01;
 }
 
-.cont-box0{
-    margin-top: 40px;
-}
-.cont-box0 p{
-    margin-top: 15px;
-}
 
-/* 
+
+/*
 Copyright Andrew Canham
 Released under the MIT license
 http://opensource.org/licenses/mit-license.php
@@ -349,7 +344,7 @@ h1,h2,h3{
 }
 
 .bar5::after{
-  max-width: 20%;    
+  max-width: 20%;
 }
 
 .bar6::after{
@@ -373,11 +368,9 @@ h1,h2,h3{
   }
 }
 
-
 @media screen and (min-width:750px) {
     .cont, small{margin-left: 90px}
 }
-
 
 .cont a {
     padding: 5px 40px;
