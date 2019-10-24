@@ -25,9 +25,6 @@ body{
     font-size: 25px;
 }
 
-
-
-
 .cont a:hover {
     background-color: #4f585e;
     text-shadow: none;
@@ -53,8 +50,6 @@ body{
 .cont {
     line-height: 01;
 }
-
-
 
 /*
 Copyright Andrew Canham

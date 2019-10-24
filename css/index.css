@@ -114,7 +114,6 @@ html{
     padding-top: 100px;
 }
 
-
 @media screen and (min-width:750px) {
     .top,
     .top-cont,
@@ -123,4 +122,3 @@ html{
         margin-left: 100px;
     }
 }
-

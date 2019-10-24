@@ -5,7 +5,6 @@
 body {
     margin: 0 auto;
     text-align: center;
-    
 }
 
 html {
@@ -16,20 +15,16 @@ html {
 
 body,
 hrml{font-family:'Anton','Sawarabi Mincho',sans-serif;
+    height: 100%
 }
 
 a {
     transition: color 0.3s ease 0s;
     text-decoration: none;
-    color: white;
 }
 
-a:link {
+a, a:link, a:visited{
     color:white;
-}
-
-a:visited {
-    color: white;
 }
 
 a:hover {
@@ -43,14 +38,24 @@ p {
 }
 
 .pc-head {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 150px;
     background-color: rgb(10, 10, 10);
     height: 100%;
-    z-index: 3;
     line-height: 3;
+}
+
+.side {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(28, 28, 28, 0.95);
+    display: none;
+}
+
+.pc-head, .side{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
 }
 
 header {
@@ -66,8 +71,6 @@ header a {
     transform: translateY(-50%);
     line-height: ;
     font-size: 20px;
-    
-    
 }
 
 ul {
@@ -94,8 +97,6 @@ small{
     margin-bottom: 0px;
 }
 
-
-
 body:after {
     position: fixed;
     top: 0;
@@ -104,29 +105,15 @@ body:after {
     height: 100%;
     content: "";
     background: #f89174;
-    background: linear-gradient(-20deg, rgba(255, 255, 255, 0) 0%, #2f2f2f 100%), url();
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
+    background:  -moz-linear-gradientlinear-gradient(-20deg, rgba(255, 255, 255, 0) 0%, #2f2f2f 100%);
+    background: -webkit-linear-gradientlinear-gradient(-20deg, rgba(255, 255, 255, 0) 0%, #2f2f2f 100%);
+    background: linear-gradient(-20deg, rgba(255, 255, 255, 0) 0%, #2f2f2f 100%);
     z-index: -2;
 }
 
 .fas {
     display: inline-block;
     margin-top: 0px;
-}
-
-.side {
-    position: relative;
-    height: 100px;
-    width: 100%;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    background-color: rgba(28, 28, 28, 0.94);
-    position: fixed;
-    display: none;
 }
 
 .side li {
@@ -207,10 +194,8 @@ footer {
     font-size:13px;
 }
 
-
 .top-img img{
     width: 25px;
     height: 25px;
     margin-top: 25px;
 }
-
