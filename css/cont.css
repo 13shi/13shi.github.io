@@ -105,6 +105,9 @@ span{
     color: inherit;
     border: none;
     background: none;
+    font-family:'Anton','Sawarabi Mincho',sans-serif;
+    font-size: 18px;
+    line-height: 0;
 }
 
 .pricing__action:focus {
@@ -151,9 +154,8 @@ span{
 }
 
 .pricing--sonam .pricing__action {
-    font-weight: bold;
     margin-top: auto;
-    padding: 0.75em 2em;
+    padding: 0.75em 0.75em;
     border-radius: 5px;
     background: #E06060;
     transition: background 0.3s;
@@ -204,7 +206,6 @@ span{
 .pricing__action a {
     line-height: 1;
     display: block;
-    margin-top: 13px;
 }
 
 .pricing__action a:hover {
@@ -361,4 +362,3 @@ span::before {
 tab-one{
     text-decoration: underline;
 }
-

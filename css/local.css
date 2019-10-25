@@ -69,7 +69,6 @@ header a {
     -webkit-transform: translateY(-50%);
     /* Safari用 */
     transform: translateY(-50%);
-    line-height: ;
     font-size: 20px;
 }
 
@@ -175,7 +174,6 @@ body:after {
 }
 
 .fab:hover {
-    transform 0.4s;
     box-shadow: 0 3px 0 #12978d, 0 6px 0 rgba(0, 0, 0, .2);
     transform: translateY(3px);
 }
