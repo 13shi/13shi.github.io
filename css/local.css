@@ -1,21 +1,21 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     margin: 0 auto;
-    text-align: center;
+    font-family:'Anton','Sawarabi Mincho',sans-serif;
 }
 
 html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
-    text-align: center;
 }
 
 body,
-hrml{font-family:'Anton','Sawarabi Mincho',sans-serif;
-    height: 100%
+hrml{
+    height: 100%;
 }
 
 a {

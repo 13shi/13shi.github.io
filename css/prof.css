@@ -81,9 +81,8 @@ div.cards {
 div.card {
     display: inline-block;
     margin: 8px;
-    padding-top: 5pxl;
+    padding-top: 5px;
     max-width: 280px;
-    perspective: 1000;
     position: relative;
     text-align: left;
     transition: all 0.3s 0s ease-in;
