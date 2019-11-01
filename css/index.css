@@ -44,19 +44,19 @@
 /* design*/
 
 #content01 .wrap {
-    background-color: rgba(255, 0, 0, 0.2);
+    background: rgba(255, 0, 0, 0.2);
 }
 
 #content02 .wrap {
-    background-color: rgba(186, 0, 255, 0.2);
+    background: rgba(186, 0, 255, 0.2);
 }
 
 #content03 .wrap {
-    background-color: rgba(0, 0, 255, 0.2);
+    background: rgba(0, 0, 255, 0.2);
 }
 
 #content04 .wrap {
-    background-color: rgba(121, 142, 64, 0.41);
+    background: rgba(121, 142, 64, 0.41);
 }
 
 .text-box {
@@ -65,7 +65,7 @@
     padding-bottom: 40px;
     width: 480px;
     height: 150px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     margin: auto;
 }
@@ -79,16 +79,14 @@
 }
 
 .text-box:hover {
-    background-color: rgba(0, 0, 0, 0.33);
+    background: rgba(0, 0, 0, 0.33);
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 .text-box .catch {
-    position: absolute;
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
-    line-height: 2;
+    font: 40px/2 'Lobster', cursive;
+  position: absolute;
 }
 
 .text-box .copy {

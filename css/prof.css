@@ -21,12 +21,11 @@ body{
 }
 
 .pr {
-    font-family: "Nico Moji";
-    font-size: 25px;
+    font: 25px "Nico Moji";
 }
 
 .cont a:hover {
-    background-color: #4f585e;
+    background: #4f585e;
     text-shadow: none;
     box-shadow: none;
     color: white;
@@ -217,18 +216,12 @@ div.card.show div.flap2 {
     transition: all 0.3s 0.2s ease-out;
 }
 
-.card-title {
-    background-color: white;
-}
-
-.card {
-    background-color: white
-}
-
-.toggle-info a.btn {
+.card-title,
+.card,
+.toggle-info a.btn
+{
     background: white;
 }
-
 
 /**/
 
@@ -241,11 +234,11 @@ div.card.show div.flap2 {
 }
 
 .Bourgone {
-    background-color: rgba(255, 0, 0, 0.2)
+    background: rgba(255, 0, 0, 0.2)
 }
 
 .Aruet {
-    background-color: rgba(186, 0, 255, 0.2)
+    background: rgba(186, 0, 255, 0.2)
 }
 
 .teiki, .teiki_b, .c-box{
@@ -349,10 +342,9 @@ h1,h2,h3{
 }
 
 .cont a {
+    font: 15px 'Sawarabi Mincho', sans-serif;
     padding: 5px 40px;
     margin-top: 20px;
     color: #4f585e;
     transition: all 0.5s;
-    font-family: 'Sawarabi Mincho', sans-serif;
-    font-size: 15px;
 }

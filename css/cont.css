@@ -21,31 +21,29 @@ body {
     margin-top: 150px;
 }
 
-.skeb a{
+.skeb a {
+    font: 16px 'Sawarabi Mincho', sans-serif;
     text-decoration: none;
-    font-size:16px;
-    font-family:'Sawarabi Mincho', sans-serif;
     padding: 0px 5px;
 }
 
-.skeb img{
+.skeb img {
     width: 500px;
 }
 
-span{
-    font-size:15px;
+span {
+    font-size: 15px;
 }
 
-.skeb2{
+.skeb2 {
     color: #333333;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .skeb2 a {
+    font: 17px 'Sawarabi Mincho', sans-serif;
     color: #ffffff;
-    font-family:'Sawarabi Mincho', sans-serif;
-    font-size:17px;
 }
 
 .skeb p {
@@ -61,23 +59,24 @@ span{
     text-align: center;
 }
 
-.skeb a:hover , .skeb2 a:hover{
+.skeb a:hover,
+.skeb2 a:hover {
     text-shadow: none;
     transition: all 500ms;
-    color:  #2e2e2e;
+    color: #2e2e2e;
 }
 
-.box1 p a, .bold, .not{
+.box1 p a,
+.bold,
+.not {
     font-family: 'Sawarabi Mincho', sans-serif;
     color: #212121;
     line-height: 0.5;
 }
 
-.atte a{
-    font-family: 'Sawarabi Mincho', sans-serif;
+.atte a {
+    font: bold 16px 'Sawarabi Mincho', sans-serif;
     color: #2e2e2e;
-    font-size: 16px;
-    font-weight: bold;
 }
 
 .pricing {
@@ -102,12 +101,10 @@ span{
 }
 
 .pricing__action {
+    font: 18px/0 'Anton','Sawarabi Mincho',sans-serif;
     color: inherit;
     border: none;
     background: none;
-    font-family:'Anton','Sawarabi Mincho',sans-serif;
-    font-size: 18px;
-    line-height: 0;
 }
 
 .pricing__action:focus {
@@ -213,10 +210,10 @@ span{
 }
 
 .teiki-w {
+    background: white;
     width: 65%;
     margin: auto;
     color: #212121;
-    background-color: white;
     padding: 13px;
     border-radius: 5px;
     margin-top: 70px;
@@ -263,12 +260,10 @@ span::before {
 }
 
 .teiki-w a {
+    font: 16px/1 'Sawarabi Mincho', sans-serif;
     color: #4A24FF;
-    font-family: 'Sawarabi Mincho', sans-serif;
     transition: all 300ms;
-    font-size: 16px;
-    line-height: 1;
-    
+
 }
 
 .teiki-w a:hover {
@@ -285,80 +280,92 @@ span::before {
 }
 
 .cp_actab {
-	position: relative;
-	overflow: hidden;
-	width: 80%;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
     max-width: 800px;
-	margin: 0 auto;
-	color: #212121;
+    margin: 0 auto;
+    color: #212121;
     text-align: left
 }
+
 .cp_actab input {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
+
 .cp_actab label {
-	font-weight: bold;
-	line-height: 3;
-	position: relative;
-	display: block;
-	cursor: pointer;
-	margin: 0 0 1px 0;
+    font-weight: bold;
+    line-height: 3;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin: 0 0 1px 0;
     color: #333333;
-	background: white;
+    background: white;
     border-bottom: dashed 2px rgb(168, 168, 168);
 }
 
 .cp_actab .cp_actab-content {
-	overflow: hidden;
-	max-height: 0;
-	-webkit-transition: max-height 0.35s;
-	transition: max-height 0.35s;
-	color: #333333;
-	background: #f0f0f0;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+    color: #333333;
+    background: #f0f0f0;
     border-radius: 10px;
     padding: 0px 15px;
     margin-top: 8px;
 }
 
-.cp-padding{
+.cp-padding {
     padding: 15px 0px;
 }
 
-.cp-left{
+.cp-left {
     margin-left: 45px;
 }
 
 /* :checked */
 .cp_actab input:checked ~ .cp_actab-content {
-	max-height: 20em;
+    max-height: 20em;
 }
+
 /* Icon */
 .cp_actab label::after {
-	line-height: 3;
-	position: absolute;
-	top: -15px;
-	right: 0;
-	display: block;
-	width: 1em;
-	height: 3em;
-	-webkit-transition: all 0.35s;
-	transition: all 0.35s;
-	text-align: center;
-    font-size:25px;
+    line-height: 3;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    display: block;
+    width: 1em;
+    height: 3em;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    text-align: center;
+    font-size: 25px;
 }
+
 .cp_actab input[type=checkbox] + label::after {
-	content: '+';
+    content: '+';
 }
+
 .cp_actab input[type=checkbox]:checked + label::after {
-	transform: rotate(315deg);
+    transform: rotate(315deg);
 }
 
 @media screen and (min-width:750px) {
-    .skeb,.box1, .skeb2, .teiki-box, .wrapper{margin-left: 150px}
+
+    .skeb,
+    .box1,
+    .skeb2,
+    .teiki-box,
+    .wrapper {
+        margin-left: 150px
+    }
 }
 
-tab-one{
+tab-one {
     text-decoration: underline;
 }

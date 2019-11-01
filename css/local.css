@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
     text-align: center;
 }
 
 body {
     margin: 0 auto;
+    width: 100%;
     font-family:'Anton','Sawarabi Mincho',sans-serif;
 }
 
@@ -42,17 +42,18 @@ p {
 }
 
 .pc-head {
+    background: rgb(10, 10, 10);
     width: 150px;
-    background-color: rgb(10, 10, 10);
     height: 100%;
     line-height: 3;
 }
 
+
 .side {
+    background: rgba(28, 28, 28, 0.95);
     height: 100px;
-    width: 100%;
-    background-color: rgba(28, 28, 28, 0.95);
     display: none;
+    line-height: 2;
 }
 
 .pc-head, .side{
@@ -60,31 +61,16 @@ p {
     z-index: 10;
     top: 0;
     left: 0;
+    position:fixed ;
 }
 
 header {
     z-index: 999;
-}
-
-header a {
-    margin: auto 0;
-    position: relative;
-    -webkit-transform: translateY(-50%);
-    /* Safari用 */
-    transform: translateY(-50%);
     font-size: 20px;
 }
 
 ul {
     list-style: none;
-}
-
-.side{
-    width: 100%;
-}
-
-.side a {
-    font-size: 20px;
 }
 
 li a,
@@ -121,16 +107,6 @@ body:after {
     z-index: -2;
 }
 
-.fas {
-    display: inline-block;
-    margin-top: 0px;
-}
-
-.side li {
-    display: inline;
-    padding: 5px;
-}
-
 .bold {
     font-weight: bold;
     padding-top: 10px;
@@ -148,10 +124,6 @@ body:after {
     right: 20px;
 }
 
-#pageTop i {
-    padding-top: 6px
-}
-
 #pageTop a {
     display: block;
     z-index: 999;
@@ -165,6 +137,7 @@ body:after {
 #pageTop a:hover {
     text-decoration: none;
     opacity: 0.7;
+    transition: all 0.5s;
 }
 
 .fab {
@@ -186,14 +159,6 @@ body:after {
 .fab:hover {
     box-shadow: 0 3px 0 #12978d, 0 6px 0 rgba(0, 0, 0, .2);
     transform: translateY(3px);
-}
-
-.fab:active {
-    color: #ddd;
-    background: #12978d;
-    box-shadow: 0 0 0 #047c71, 0 0 0 rgba(0, 0, 0, .2);
-    transform: translateY(6px);
-    transition-duration: .1s;
 }
 
 footer {
