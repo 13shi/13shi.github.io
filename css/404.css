@@ -1,8 +1,12 @@
 .img404 img {
-    margin-top: 40%;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
+    margin-top: 150px;
+}
+
+@media screen and (min-width:750px) {
+    .img404 img,
+    footer{
+        margin-left: 150px;
+    }
 }
 
 footer{

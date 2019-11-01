@@ -23,16 +23,7 @@
     display: block;
     z-index: 99999;
     height: 80px;
-}
-
-.side ul {
-    float: right;
-    margin-right: 15px;
-    font-size: 20px;
-}
-
-.side a {
-    font-size: 19px;
+    width: 100%;
 }
 
 .top h3 {
@@ -42,14 +33,6 @@
     line-height: 0.5;
     padding-top: 0px;
     line-height: 1;
-}
-
-.side img{
-    float: left;
-    width: 25px;
-    height: 25px;
-    margin-top: 25px;
-    margin-left: 10px;
 }
 
 img.image-round1 {
@@ -162,4 +145,5 @@ footer p {
 .skeb img{
     width: 80%;
 }
+
 
