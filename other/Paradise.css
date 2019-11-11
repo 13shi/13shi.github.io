@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(135deg, rgba(27, 31, 60, 0.69), rgba(173, 173, 120, 0.21)) fixed, url(paradise-img/back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-size: cover;
+    font-family: "Sawarabi Mincho";
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;;
+    width: 100%;
+
+}
+
+.container p {
+    color: crimson;
+    font-weight: bold
+}
+
+
+h3 {
+    color: white;
+    font-size: 6em;
+}
+
+.black {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.69);
+    text-align: center;
+    padding:20px 0px;
+}
+
+
+.Explanation{
+    line-height: 1;
+}
+
+storong{
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px) {
+    h3 {
+        font-size: 3em;
+    }
+}
