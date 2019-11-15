@@ -36,9 +36,9 @@ a:hover {
 }
 
 p {
-    line-height: 1;
     color: #212121;
     font-weight: 100;
+    margin: 0 auto;
 }
 
 .pc-head {

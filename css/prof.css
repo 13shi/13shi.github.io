@@ -10,7 +10,6 @@ body{
 }
 
 .cont-s {
-    line-height: 1;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -46,9 +45,6 @@ body{
     padding-top: 15px;
 }
 
-.cont {
-    line-height: 01;
-}
 
 /*
 Copyright Andrew Canham
