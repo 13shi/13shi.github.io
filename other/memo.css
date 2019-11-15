@@ -4,14 +4,10 @@ html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
     background-color: #222222;
+    width: 100%}
 }
 
-body,
-hrml{
-    height: 100%;
-    width: 100%;
-    color: #071d1d;
-}
+
 
 a {
     transition: color 0.3s ease 0s;
@@ -133,3 +129,28 @@ h3:after {
   border-bottom: solid 1px #c4c4c4;
   right: 0;
 }
+
+#pageTop {
+    z-index: 999;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+
+}
+
+#pageTop a {
+    display: block;
+    z-index: 999;
+    padding: 8px 0 0 8px;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    color: #151515;
+}
+
+#pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
