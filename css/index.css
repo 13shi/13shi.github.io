@@ -31,75 +31,150 @@
     transition: all 0.5s ease 0s;
 }
 
-.show .background {
-    opacity: 1;
+
+
+
+/*
+* Design by Robert Mayer:https://goo.gl/CJ7yC8
+*
+*I intentionally left out the line that was supposed to be below the subheader simply because I don't like how it looks.
+*
+* Chronicle Display Roman font was substituted for similar fonts from Google Fonts.
+*/
+
+
+.wrapper-box{
+    width: 85%;
+    margin: 0 auto;
 }
 
-.contents .wrap {
-    padding: 200px 100px;
-    position: relative;
-    z-index: 2;
+.wrapper {
+  height: 280px;
+  width: 420px;
+  display: inline-block;
+  margin: 0 auto;
+    padding: 10px;
 }
 
-/* design*/
-
-#content01 .wrap {
-    background: rgba(255, 0, 0, 0.2);
+.product-img {
+  float: left;
+  width: 180px;
 }
 
-#content02 .wrap {
-    background: rgba(186, 0, 255, 0.2);
+.product-img img {
+  border-radius: 7px 0 0 7px;
 }
 
-#content03 .wrap {
-    background: rgba(0, 0, 255, 0.2);
+.wrapper:hover img {
+    opacity:0.7;
+filter:alpha(opacity=70);
+-ms-filter: “alpha( opacity=70 )”;
 }
 
-#content04 .wrap {
-    background: rgba(121, 142, 64, 0.41);
+.product-info {
+  float: left;
+  height: 280px;
+  width: 240px;
 }
 
-.text-box {
-    position: relative;
-    padding-top: 0px;
-    padding-bottom: 40px;
-    width: 480px;
-    height: 130px;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    margin: auto;
+.product-info.info1{
+    background-color: rgba(255, 0, 0, 0.3);
 }
 
-.text-box a {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
+
+.product-info.info2{
+    background: rgba(186, 0, 255, 0.3);
 }
 
-.text-box:hover {
-    background: rgba(0, 0, 0, 0.33);
+.product-info.info3{
+    background: rgba(0, 0, 255, 0.3);
+}
+
+.product-info.info4{
+    background: rgba(121, 142, 64, 0.5);
+}
+
+.product-info.info5{
+    background: rgba(211, 148, 30, 0.5);
+}
+
+.product-text {
+  height: 220px;
+  width: 240px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 0px;
+  padding-top: 22px;
+  font-size: 32px;
+  color: #e8e8e8;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Lobster', cursive;
+}
+
+.product-text h2 {
+  margin: 0 0 27px 0px;
+  font-size: 13px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: 400;
+  color: #d2d2d2;
+  letter-spacing: 0.1em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 0px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: #e2e2e2;
+  line-height: 1.2em;
+  font-size: 13px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 240px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.product-price-btn button {
+  display: inline-block;
+  height: 40px;
+  width: 170px;
+  margin: 0 20px 0 -40px;
+  box-sizing: border-box;
+  border: transparent;
+  font-family: 'Lobster', cursive;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: rgba(61, 93, 84, 0.77);
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
-.text-box .catch {
-    font: 40px/2 'Lobster', cursive;
-  position: absolute;
-}
 
-.text-box .copy {
-    margin: 0;
-    padding-left: 15px;
-    line-height: 1;
-    padding-top: 100px;
-}
+
 
 @media screen and (min-width:750px) {
     .top,
     .top-cont,
     .contents,
+    .contents5,
+    .wrapper-box,
     footer p {
         margin-left: 150px;
     }
