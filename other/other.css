@@ -1,0 +1,161 @@
+*{box-sizing: border-box;}
+
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+body,
+hrml{
+    height: 100%;
+}
+
+a {
+    transition: color 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a,
+a:link,
+a:visited,{
+    color:white;
+}
+
+p{
+   margin: 0 auto;
+}
+
+#pageTop {
+    z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#pageTop a {
+    display: block;
+    z-index: 999;
+    padding: 8px 0 0 8px;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    color: #151515;
+}
+
+#pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+/*
+* Design by Robert Mayer:https://goo.gl/CJ7yC8
+*
+*I intentionally left out the line that was supposed to be below the subheader simply because I don't like how it looks.
+*
+* Chronicle Display Roman font was substituted for similar fonts from Google Fonts.
+*/
+
+
+
+.wrapper {
+  height: 280px;
+  width: 460px;
+  margin: 50px auto;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.21);
+}
+
+.product-img {
+  float: left;
+  width: 200px;
+
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: left;
+  height: 280px;
+  width: 260px;
+  background-color: #417f81;
+}
+
+.product-text {
+  height: 220px;
+  width: 300px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 20px;
+  padding-top: 22px;
+  font-size: 32px;
+  color: #e8e8e8;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Lobster', cursive;
+}
+
+.product-text h2 {
+  margin: 0 0 27px 28px;
+  font-size: 13px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: 400;
+  color: #d2d2d2;
+  letter-spacing: 0.1em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 18px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: #bfbfbf;
+  line-height: 1.2em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  position: relative;
+}
+
+.product-price-btn button {
+  display: inline-block;
+  height: 40px;
+  width: 170px;
+  margin: 0 20px 0 46px;
+  box-sizing: border-box;
+  border: transparent;
+  font-family: 'Lobster', cursive;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #3d5d54;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
+}
+
+
+@media screen and (min-width:750px) {
+    .top,
+    .top-cont,
+    .contents,
+    footer p {
+        margin-left: 150px;
+    }
+}

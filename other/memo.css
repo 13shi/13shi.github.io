@@ -7,8 +7,6 @@ html {
     width: 100%}
 }
 
-
-
 a {
     transition: color 0.3s ease 0s;
     text-decoration: none;
@@ -135,7 +133,6 @@ h3:after {
     position: fixed;
     bottom: 40px;
     right: 30px;
-
 }
 
 #pageTop a {
