@@ -302,10 +302,10 @@ h1,h2,h3{
   max-width: 75%;
 }
 .bar3::after{
-  max-width: 60%;
+  max-width: 70%;
 }
 .bar4::after{
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .bar5::after{

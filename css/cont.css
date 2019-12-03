@@ -12,7 +12,6 @@ body {
 }
 
 .box1 {
-    line-height: 1;
     margin-left: 40px;
 }
 
@@ -42,8 +41,9 @@ span {
 }
 
 .skeb2 a {
-    font: 17px 'Sawarabi Mincho', sans-serif;
-    color: #ffffff;
+    font: 19px 'Sawarabi Mincho', sans-serif;
+    color: #34495e;
+    border-bottom: medium solid #34495e;
 }
 
 .skeb p {
@@ -71,7 +71,6 @@ span {
 .not {
     font-family: 'Sawarabi Mincho', sans-serif;
     color: #212121;
-    line-height: 0.5;
 }
 
 .atte a {
