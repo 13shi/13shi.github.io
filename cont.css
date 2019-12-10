@@ -1,0 +1,367 @@
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+}
+
+.c-cont {
+    line-height: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: #212121;
+}
+
+.box1 {
+    margin-left: 40px;
+}
+
+.skeb {
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.skeb a {
+    font: 16px 'Sawarabi Mincho', sans-serif;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+
+span {
+    font-size: 15px;
+}
+
+.skeb2 {
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skeb2 a {
+    font: 19px 'Sawarabi Mincho', sans-serif;
+    color: #34495e;
+    border-bottom: medium solid #34495e;
+}
+
+.skeb p {
+    color: #333333;
+}
+
+.skeb-b {
+    margin-bottom: 40px;
+}
+
+.skeb-b p {
+    color: #333;
+    text-align: center;
+}
+
+.skeb a:hover,
+.skeb2 a:hover {
+    text-shadow: none;
+    transition: all 500ms;
+    color: #2e2e2e;
+}
+
+.box1 p a,
+.bold,
+.not {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: #212121;
+}
+
+.atte a {
+    font: bold 16px 'Sawarabi Mincho', sans-serif;
+    color: #2e2e2e;
+}
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pricing__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    flex: 0 1 230px;
+}
+
+.pricing__feature-list {
+    text-align: left;
+}
+
+.pricing__action {
+    font: 18px/0 'Anton','Sawarabi Mincho',sans-serif;
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+.pricing__action:focus {
+    outline: none;
+}
+
+/* Sonam */
+.pricing--sonam .pricing__item {
+    margin: 1.5em;
+    padding: 2em;
+    cursor: default;
+    border-radius: 10px;
+    background: #dddddd;
+    transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__item:hover {
+    background: #f5f5f5;
+}
+
+.pricing--sonam .pricing__title {
+    font-size: 1.5em;
+    width: 100%;
+    line-height: 1;
+    color: #2e2e2e;
+    border-bottom: 3px solid rgb(168, 168, 168);
+}
+
+.pricing--sonam .pricing__price {
+    color: #E06060;
+    font-size: 1.75em;
+    padding: 4px;
+}
+
+.pricing--sonam .pricing__sentence {
+    font-weight: bold;
+    color: #363636;
+}
+
+.pricing--sonam .pricing__feature-list {
+    margin: 0;
+    padding: 1em 1.25em 2em;
+    line-height: 1;
+}
+
+.pricing--sonam .pricing__action {
+    margin-top: auto;
+    padding: 0.75em 0.75em;
+    border-radius: 5px;
+    background: #E06060;
+    transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__action:hover,
+.pricing--sonam .pricing__action:focus {
+    background: #BD3C3C;
+}
+
+.c-cont {
+    padding-top: 80px;
+}
+
+.fra2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atte {
+    width: 70%;
+    background-color: white;
+    margin: 1.5em;
+    padding: 1.5em;
+    cursor: default;
+    border-radius: 10px;
+    background: #dddddd;
+    color: #2e2e2e;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.not {
+    color: #E06060;
+}
+
+.pricing__action a {
+    line-height: 1;
+    display: block;
+}
+
+.pricing__action a:hover {
+    text-shadow: none
+}
+
+.teiki-w {
+    background: white;
+    width: 65%;
+    margin: auto;
+    color: #212121;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.teiki-w h4 {
+    line-height: 0;
+}
+
+.wrapper {
+    margin-top: 40px;
+    height: 300px;
+}
+
+.teiki-title {
+    color: #E06060;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span {
+    position: relative;
+}
+
+span:hover::before {
+    opacity: 1;
+}
+
+span::before {
+    content: attr(aria-label);
+    opacity: 0;
+    position: absolute;
+    top: 80;
+    right: -90;
+    font-size: 16px;
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+    background-color: #555;
+    border-radius: 3px;
+    pointer-events: none;
+    margin-top: -20px
+}
+
+.teiki-w a {
+    font: 16px/1 'Sawarabi Mincho', sans-serif;
+    color: #4A24FF;
+    transition: all 300ms;
+
+}
+
+.teiki-w a:hover {
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+.teiki-re a {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.teiki-re a:hover {
+    text-shadow: none;
+}
+
+.cp_actab {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #212121;
+    text-align: left
+}
+
+.cp_actab input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.cp_actab label {
+    font-weight: bold;
+    line-height: 3;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin: 0 0 1px 0;
+    color: #333333;
+    background: white;
+    border-bottom: dashed 2px rgb(168, 168, 168);
+}
+
+.cp_actab .cp_actab-content {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+    color: #333333;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin-top: 8px;
+}
+
+.cp-padding {
+    padding: 15px 0px;
+}
+
+.cp-left {
+    margin-left: 45px;
+}
+
+/* :checked */
+.cp_actab input:checked ~ .cp_actab-content {
+    max-height: 20em;
+}
+
+/* Icon */
+.cp_actab label::after {
+    line-height: 3;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    display: block;
+    width: 1em;
+    height: 3em;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cp_actab input[type=checkbox] + label::after {
+    content: '+';
+}
+
+.cp_actab input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+}
+
+@media screen and (min-width:750px) {
+
+    .skeb,
+    .box1,
+    .skeb2,
+    .teiki-box,
+    .wrapper {
+        margin-left: 150px
+    }
+}
+
+tab-one {
+    text-decoration: underline;
+}
