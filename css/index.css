@@ -49,11 +49,11 @@
 }
 
 .wrapper {
-  height: 280px;
+  height: 250px;
   width: 420px;
   display: inline-block;
   margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     position: relative;
 }
 
@@ -102,6 +102,10 @@ filter:alpha(opacity=70);
     background: rgba(211, 148, 30, 0.5);
 }
 
+.product-info.info6{
+    background: rgba(1,1,1, 0.5);
+}
+
 .product-text {
     margin-left: 180px;
   height: 220px;
@@ -121,22 +125,17 @@ filter:alpha(opacity=70);
 }
 
 .product-text h2 {
+  font: 400 13px 'Sawarabi Mincho', sans-serif;
   margin: 0 0 27px 0px;
-  font-size: 13px;
-  font-family: 'Sawarabi Mincho', sans-serif;
-  font-weight: 400;
   color: #d2d2d2;
   letter-spacing: 0.1em;
 }
 
 .product-text p {
+  font: lighter 13px/1.2em 'Sawarabi Mincho', sans-serif;
   height: 125px;
   margin: 0 0 0 0px;
-  font-family: 'Sawarabi Mincho', sans-serif;
   color: #e2e2e2;
-  line-height: 1.2em;
-  font-size: 13px;
-  font-weight: lighter;
   overflow: hidden;
 }
 
@@ -159,14 +158,14 @@ filter:alpha(opacity=70);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #ffffff;
-  background-color: rgba(61, 93, 84, 0.77);
+  background: rgba(61, 93, 84, 0.77);
   cursor: pointer;
   outline: none;
     padding-top: 10px;
 }
 
 .product-price-btn a:hover {
-  background-color: #79b0a1;
+  background: #79b0a1;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
