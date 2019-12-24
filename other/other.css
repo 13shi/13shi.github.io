@@ -1,4 +1,6 @@
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-padding-top: 70px;
@@ -6,8 +8,9 @@ html {
 }
 
 body,
-html{
+html {
     height: 100%;
+        background-color: #222222;
 }
 
 a {
@@ -17,12 +20,13 @@ a {
 
 a,
 a:link,
-a:visited,{
-    color:white;
+a:visited{
+    color:#ddd;
 }
 
-p{
-   margin: 0 auto;
+p {
+    margin: 0 auto;
+    color: #bababa;
 }
 
 #pageTop {
@@ -31,11 +35,113 @@ p{
     bottom: 20px;
     right: 20px;
 }
+.recommend , .event{
+    width: 90%;
+        max-width: 900px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font: 400 14px 'Sawarabi Mincho', sans-serif;
+    
+}
+
+
+
+.event h3{
+    margin-left: 20px;
+    line-height: 0;
+    letter-spacing: 5px;
+    color:#ddd;
+}
+
+.recommend{
+}
+
+.recommend-box {
+    width: 400px;
+    height: 330px;
+    margin-right: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.recommend-box a{
+    font-weight: bold;
+}
+
+.recommend-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 767px) {
+    .recommend {
+        width: 93.9%;
+        margin: 20px auto;
+        display: block;
+        margin-top: 0;
+    }
+
+    .recommend-box {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        border: none;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .recommend-image,
+    .recommend-image img {
+        width: 170px;
+        height: 75px;
+        overflow: hidden;
+    }
+
+    .recommend-title {
+        width: 450px;
+        vertical-align: top;
+        padding-left: 20px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 367px) {
+    .recommend-image img {
+        width: 80px;
+        height: 53px;
+    }
+
+    .recommend-title {
+        width: 200px;
+    }
+}
+
+/* 余白などの調整 */
+#container #content {
+    padding-top: 0;
+}
+
+.breadcrumb {
+    margin: 0 auto;
+    padding: 10px 0;
+}
 
 #pageTop a {
     display: block;
     z-index: 999;
-    padding: 8px 0 0 8px;
     border-radius: 30px;
     width: 35px;
     height: 35px;
@@ -54,6 +160,7 @@ p{
     .top-cont,
     .contents,
     footer p {
-        margin-left: 150px;
+     
     }
 }
+
