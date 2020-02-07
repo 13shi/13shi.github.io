@@ -20,7 +20,9 @@ a:visited
     color: white;
 }
 
-
+a:hover{
+    color: gray
+}
 
 h3{
     color: aliceblue;
@@ -29,6 +31,10 @@ h3{
 p{
     color: #c4c4c4;
     margin: 0;
+}
+
+.fas{
+    position: fixed;
 }
 
 .link, .codepen{
