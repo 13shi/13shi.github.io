@@ -70,13 +70,15 @@ z-index: 1;
 
 .title p{
     font-family:'Anton','Sawarabi Gothic', sans-serif;
-        z-index: 1;
+    z-index: 1;
     color: #e5e5e5;
     font-size:27px;
     line-height: 1;
     letter-spacing: 4px;
     margin: 5px;;
 }
+
+/* content01 */
 
 .content{
     display: table;
@@ -97,6 +99,9 @@ z-index: 1;
     vertical-align: top;
     padding: 10px;
 }
+
+/* content01 */
+/* content02 */
 
 hr{
     width: 80%;
@@ -132,8 +137,8 @@ hr{
 
 .text01 p{
     position: absolute;
-     bottom: 5px;
-    right: 15px;
+     bottom: 1px;
+    left: 5px;;
     font-family:'Anton';
     font-size:19px;
     line-height: 0;
@@ -143,11 +148,12 @@ hr{
     padding-left: 20px;
 }
 
-
-
 .text01 h4{
     line-height: 0;
 }
+
+/* content02 */
+/* content03 */
 
 .content03{
     max-width: 800px;
@@ -170,6 +176,7 @@ hr{
 
 .cont03-left h4{
     line-height: 0;
+    margin: 10px;
 }
 
 .cont03-left p{
@@ -208,7 +215,12 @@ hr{
         font-family:'Sawarabi Mincho', 'Sawarabi Gothic', sans-serif;
 }
 
-small{margin-left: 20px;}
+small{
+    margin-left: 20px;
+}
+
+/* content03 */
+/* footer */
 
 svg{
     z-index: 999;
@@ -250,7 +262,6 @@ svg{
     opacity: 0.7;
     transition: all 0.5s;
 }
-
 
 @media screen and (max-width:800px) {
     .title p{
