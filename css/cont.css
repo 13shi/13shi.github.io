@@ -12,7 +12,6 @@ body {
 }
 
 .box1 {
-    line-height: 1;
     margin-left: 40px;
 }
 
@@ -27,9 +26,6 @@ body {
     padding: 0px 5px;
 }
 
-.skeb img {
-    width: 500px;
-}
 
 span {
     font-size: 15px;
@@ -42,8 +38,9 @@ span {
 }
 
 .skeb2 a {
-    font: 17px 'Sawarabi Mincho', sans-serif;
-    color: #ffffff;
+    font: 19px 'Sawarabi Mincho', sans-serif;
+    color: #34495e;
+    border-bottom: medium solid #34495e;
 }
 
 .skeb p {
@@ -51,6 +48,7 @@ span {
 }
 
 .skeb-b {
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -71,7 +69,6 @@ span {
 .not {
     font-family: 'Sawarabi Mincho', sans-serif;
     color: #212121;
-    line-height: 0.5;
 }
 
 .atte a {

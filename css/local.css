@@ -14,7 +14,7 @@ html {
 }
 
 body,
-hrml{
+html{
     height: 100%;
 }
 
@@ -36,9 +36,9 @@ a:hover {
 }
 
 p {
-    line-height: 1;
     color: #212121;
     font-weight: 100;
+    margin: 0 auto;
 }
 
 .pc-head {
@@ -167,9 +167,4 @@ footer {
     font-size:13px;
 }
 
-.top-img img{
-    width: 25px;
-    height: 25px;
-    margin-top: 25px;
-}
 

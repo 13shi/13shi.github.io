@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #222222;
+}
+
+a {
+    transition: color 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a,
+a:link,
+a:visited{
+    color:#ddd;
+}
+
+p {
+    margin: 0 auto;
+    color: #bababa;
+}
+
+#pageTop {
+    z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.recommend , .event{
+    width: 90%;
+        max-width: 900px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font: 400 14px 'Sawarabi Mincho', sans-serif;
+}
+
+.recommend{
+    padding: 0.2em 0.5em;
+    border: dashed 2px white;
+}
+
+.event h3{
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    color:#ddd;
+}
+
+.recommend-box {
+    width: 400px;
+    height: 330px;
+    margin-right: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.recommend-box a{
+    font-weight: bold;
+}
+
+.recommend-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .recommend {
+        width: 93%;
+        margin: 20px auto;
+        display: block;
+        margin-top: 0;
+    }
+
+    .recommend-box {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        border: none;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .recommend-image,
+    .recommend-image img {
+        width: 170px;
+        overflow: hidden;
+    }
+
+    .recommend-title {
+        width: 450px;
+        vertical-align: top;
+        padding-left: 20px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 367px) {
+    .recommend-image img {
+        width: 80px;
+        height: 53px;
+    }
+
+    .recommend-title {
+        width: 200px;
+    }
+}
+
+/* 余白などの調整 */
+#container #content {
+    padding-top: 0;
+}
+
+.breadcrumb {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#pageTop a {
+    display: block;
+    z-index: 999;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    color: #151515;
+}
+
+#pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+
+.recommend-image{
+  transition-duration: 0.5s;
+}
+.recommend-image img{
+  width: 100%;
+  cursor: pointer;
+}
+.recommend-image:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transform: translateY(-5px);
+  transition-duration: 0.5s;
+}
