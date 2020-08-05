@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(135deg, rgba(27, 31, 60, 0.69), rgba(173, 173, 120, 0.21)) fixed, url(paradise-img/back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-size: cover;
+    font-family: "Sawarabi Mincho";
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;;
+    width: 100%;
+
+}
+
+.container p {
+    color: crimson;
+    font-weight: bold
+}
+
+
+h3 {
+    color: white;
+    font-size: 6em;
+}
+
+.black {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.69);
+    text-align: center;
+    padding:20px 0px;
+}
+
+
+.Explanation{
+    line-height: 1;
+}
+
+storong{
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px) {
+    h3 {
+        font-size: 3em;
+    }
+}
+
+
+.hidden_box {
+    margin-top:120px;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 15px;
+    font-weight: bold;
+    background: #efefef;
+    border-radius: 5px;
+    cursor :pointer;
+    transition: .5s;
+}
+
+
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: silver;
+}
+
+/*アイコンを切り替え*/
+.hidden_box input:checked ~ label:before {
+     content: '\f00d';
+     -webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+     color: #668ad8;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+    margin-top: 50px;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
