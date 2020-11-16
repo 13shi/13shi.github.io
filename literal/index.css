@@ -1,4 +1,8 @@
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 html {
     scroll-padding-top: 70px;
@@ -7,9 +11,9 @@ html {
 }
 
 body,
-html{
+html {
     height: 100%;
-    line-height:1;
+    line-height: 1;
 }
 
 a {
@@ -19,43 +23,99 @@ a {
 
 a,
 a:link,
-a:visited,{
-    color:white;
+a:visited,
+    {
+    color: white;
 }
 
-p{
+p {
     color: #83001a;
     font-family: "M PLUS 1p";
 }
 
-h4{
+h4 {
     color: #83001a;
     font-family: "M PLUS 1p";
-    font-size:24px;
+    font-size: 24px;
 }
 
-header{
-    height: 70px;
+header {
+    height: 90px;
     background-color: #83001a;
+    position: relative;
+}
+
+header h4 {
+    color: white;
+    padding: 30px 0;
+    line-height: 0;
+    margin-left: 20px;
+}
+
+header p {
+    color: white;
+    line-height: 0;
+    margin-left: 20px;
+
+}
+
+
+.about {
+    position: relative;
+    background-image: url(1476831_m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    font-weight: bold;
+}
+
+.about_block {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 2em;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.93);
+    /* 背景色 */
+    box-shadow: 0 0 10px 10px #ffffff;
+    /* 影 */
 }
 
 .explanation,
 .proposing1,
 .proposing2,
-.proposing3{
+.proposing3 {
     width: 80%;
     margin: 40px auto;
     max-width: 700px;
     border: solid 3px #83001a;
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px 10px;
 }
+
+.explanation h4,
+.proposing1 h4,
+.proposing2 h4,
+.roposing3 h4 {
+    margin-left: 30px;
+    line-height: 1.5;
+    margin: 30px 20px;
+}
+
 
 .explanation p,
 .proposing1 p,
 .proposing2 p,
-.roposing3 p{
+.roposing3 p {
     margin-left: 30px;
+    line-height: 2;
+    font-weight: bold;
+    color: #151515;
 }
 
 
@@ -84,6 +144,7 @@ header{
 
 
 @media screen and (min-width:750px) {
+
     .top,
     .top-cont,
     .contents,
