@@ -56,7 +56,6 @@ header p {
     color: white;
     line-height: 0;
     margin-left: 20px;
-
 }
 
 
@@ -93,6 +92,17 @@ header p {
     background-color: rgba(255, 255, 255, 0.93);
 }
 
+.summary{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.summary h4{
+    font-size:26px;
+}
+
 .explanation,
 .proposing1,
 .proposing2,
@@ -126,14 +136,51 @@ header p {
     color: #424242;
 }
 
+.back00 {
+  position: relative;
+  background: white;
+  padding-bottom: 10px;
+}
+
+.back00::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 57px 57px 0 57px;
+  border-color: white transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  z-index: 1
+}
 
 
 .back01{
+    position: relative;
     background: #C5BD99;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.back01::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 57px 57px 0 57px;
+  border-color: #C5BD99 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  padding-bottom: 20px;
+}
+
+.proposing2{
+    margin-top: 60px;
+}
 
 #pageTop {
     z-index: 999;
