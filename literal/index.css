@@ -65,7 +65,7 @@ header p {
     max-width: 1200px;
     height: 50vh;
     font-weight: bold;
-    background: linear-gradient(135deg, rgba(250, 255, 121, 0.8), rgba(255, 0, 161, 0.8)),
+    background: linear-gradient(135deg, rgba(250, 255, 121, 0.8), #3b9a91),
         url(2658673_m.jpg);
     background-size: cover;
     background-position: center center;
@@ -79,6 +79,11 @@ header p {
     font-size: 45px;
     letter-spacing: 2px;
     z-index: 1;
+  
+}
+
+.about p{
+    margin-left: 20px;
 }
 
 .about_block {
