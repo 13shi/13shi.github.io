@@ -31,6 +31,7 @@ a:visited,
 p {
     color: #83001a;
     font-family: "M PLUS 1p";
+    font-size: :22px;
 }
 
 h4 {
@@ -39,9 +40,13 @@ h4 {
     font-size: 24px;
 }
 
-.under {
-  border-bottom: dashed 2px #C5BD99;
+h3{
+    color: #701112;
+    font-family: "M PLUS 1p";
+
 }
+
+
 
 header {
     height: 90px;
@@ -61,6 +66,7 @@ header p {
     line-height: 0;
     margin-left: 20px;
 }
+
 
 
 .about {
@@ -83,11 +89,12 @@ header p {
     font-size: 45px;
     letter-spacing: 2px;
     z-index: 1;
-  
+    text-shadow: 5px 5px 10px black;
 }
 
-.about p{
+.about p {
     margin-left: 20px;
+    font-size:20px;
 }
 
 .about_block {
@@ -98,21 +105,35 @@ header p {
     width: 80%;
 }
 
-.summary {
+.summary, 
+.summary2 {
     margin-top: 60px;
     margin-bottom: 60px;
-    text-align: center;
-    letter-spacing: 2px;
+    position: relative;
+    text-align:center
 }
 
-.summary h4 {
-    font-size: 26px;
+.summary h4{
+  color: #701112;
+  font-size: 29px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1.5em 0;
+  letter-spacing: 2px;
 }
 
-.summary2 h4 {
-    font-size: 26px;
-    margin-top: 80px;
-    text-align: center;
+.summary2 h4{
+  color: #701112;
+  font-size: 26px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.summary img{
+    max-width: 400px;
+    margin: auto 0;
+    margin-top: -20px;
 }
 
 .explanation,
@@ -121,10 +142,10 @@ header p {
 .proposing3 {
     width: 80%;
     margin: 40px auto;
-    max-width: 700px;
+    max-width: 900px;
     border: solid 3px #701112;
     border-radius: 10px;
-    padding: 30px 10px;
+    padding: 30px 30px;
     background: white;
 }
 
@@ -190,21 +211,65 @@ header p {
     transform: translateX(-50%) translateY(100%);
 }
 
+.heading{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading_point{
+   display: inline-block;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  background: rgba(59, 154, 145, 0.9);
+  border-radius: 50%;
+}
+
+.heading_point h3 {
+  color: white;
+  line-height: 1.4;
+  padding-top: 33px;
+}
+
+
+
+.heading_box{
+    display: inline-block;
+}
+
+.under {
+    border-bottom: dashed 2px #C5BD99;
+    font-size: 22px;
+}
+
+.explanation_container {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "M PLUS 1p";
+    font-size:17px;
+}
+
+
 .proposing2 {
     margin-top: 60px;
 }
 
 .explanation_container{
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "M PLUS 1p";
+    margin-bottom: 50px;
 }
 
-.explanation_container p{
-    line-height: 1;
-
+.explanation_container p {
+    line-height: 1.2;
 }
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
 
 #pageTop {
     z-index: 999;
@@ -230,7 +295,7 @@ header p {
 }
 
 
-@media screen and (min-width:750px) {
+@media screen and (max-width:750px) {
 
     .top,
     .top-cont,
@@ -238,5 +303,167 @@ header p {
     footer p {
         margin-left: 150px;
     }
-    .br-sp {display: none;
+    .heading{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heading_point{margin-bottom: 10px;}
+
+    .br-sp {
+        display: none;
+    }
+    
+    
+    }
+
+
+
+
+
+
+
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 750px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 750px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 750px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
 }
