@@ -264,6 +264,28 @@ header p {
     line-height: 1.2;
 }
 
+.stand{
+    text-align: center;
+}
+
+.stand img{
+    width: 400px;
+    margin: 20px;
+}
+
+.img1{
+    border-radius: 30px;
+    border: solid 3px rgba(59, 154, 145, 0.9);
+}
+
+.img2{
+    border-radius: 30px;
+    border: solid 3px #701112;
+}
+
+.proposing3 h4{
+    text-align: center;
+}
 
 footer{
     margin-top: 20px;
