@@ -226,6 +226,22 @@ header p {
   border-radius: 50%;
 }
 
+.heading_point2{
+  background: #c1a217;
+}
+
+.heading_point3{
+  background: #7baa3b;
+}
+
+.heading_point4{
+  background: rgba(99, 115, 204, 0.9);
+}
+
+.heading_point5{
+  background: #c14b17;
+}
+
 .heading_point h3 {
   color: white;
   line-height: 1.4;
@@ -242,6 +258,9 @@ header p {
     border-bottom: dashed 2px #C5BD99;
     font-size: 22px;
 }
+
+
+
 
 .explanation_container {
     margin-left: 30px;
@@ -262,6 +281,58 @@ header p {
 
 .explanation_container p {
     line-height: 1.2;
+}
+
+.explanation_container:first-letter{
+    font-size:25px;
+}
+
+.proposing1{
+   padding-top: 50px;
+}
+
+.proposing1 h3{
+    font-size:24px;
+    margin-bottom: 20px;
+    line-height: 1.5
+}
+
+.proposing1 p{
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apple, .mint{
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.proposing1 img{
+    margin-top: 20px;
+}
+
+.apple p, .mint p{
+    text-align: left
+}
+
+.apple{
+    background-color: rgba(255, 185, 185, 0.38)
+}
+
+.mint{
+    background-color: #adf7e4
+}
+
+.apple h3{
+    color: #a75152
+}
+
+.mint h3{
+    color: rgba(36, 136, 126, 0.9)
 }
 
 .stand{
