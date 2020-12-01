@@ -250,8 +250,16 @@ header p {
 
 
 
-.heading_box{
-    display: inline-block;
+.under_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under_img img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .under {
@@ -259,16 +267,15 @@ header p {
     font-size: 22px;
 }
 
-
-
-
 .explanation_container {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "M PLUS 1p";
     font-size:17px;
 }
+
+
 
 
 .proposing2 {
@@ -282,6 +289,8 @@ header p {
 .explanation_container p {
     line-height: 1.2;
 }
+
+
 
 .explanation_container:first-letter{
     font-size:25px;
