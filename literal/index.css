@@ -110,6 +110,12 @@ header p {
     text-align:center
 }
 
+.summary2 img{
+    width: 450px;
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+
 .summary h4{
   color: #701112;
   font-size: 29px;
@@ -411,24 +417,19 @@ footer{
 
 
 @media screen and (max-width:750px) {
-
     .top,
     .top-cont,
     .contents,
-    footer p {
-        margin-left: 150px;
-    }
+    footer p {margin-left: 150px;}
     .heading{
     display: block;
     text-align: center;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
+    .proposing1 img{width: 80%;}
 .heading_point{margin-bottom: 10px;}
-
-    .br-sp {
-        display: none;
-    }
-    
+.br-sp {display: none;}
+.summary2 img{
+    width: 60%;}
     
     }
 
