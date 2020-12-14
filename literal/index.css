@@ -4,6 +4,83 @@
     padding: 0;
 }
 
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
 html {
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
@@ -387,6 +464,7 @@ header p {
 }
 
 footer{
+    width: 100%;
     margin-top: 20px;
     text-align: center;
 }
@@ -416,22 +494,7 @@ footer{
 }
 
 
-@media screen and (max-width:750px) {
-    .top,
-    .top-cont,
-    .contents,
-    footer p {margin-left: 150px;}
-    .heading{
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;}
-    .proposing1 img{width: 80%;}
-.heading_point{margin-bottom: 10px;}
-.br-sp {display: none;}
-.summary2 img{
-    width: 60%;}
-    
-    }
+
 
 
 
@@ -486,7 +549,7 @@ a.btn-c span ,a.btn-d span{
   font-size: 22px;
   font-weight: bold;
   display: inline-block;
-  width: 100%;
+  width: 90%;
   margin-bottom: 0.5em;
   padding: 0.2rem 0.5rem;
   color: #32b16c;
@@ -545,8 +608,8 @@ a.btn-d:hover {
     padding-right: 14px;
     padding-top: 16px;
     padding-bottom: 16px;
-    flex-wrap: wrap;
-  }
+    flex-wrap: wrap;}
+
 }
 .Form-Item:nth-child(5) {
   border-bottom: 1px solid #ddd;
@@ -664,3 +727,28 @@ a.btn-d:hover {
     font-size: 16px;
   }
 }
+
+
+
+@media screen and (max-width:750px) {
+    .top,
+    .top-cont,
+    .contents,{margin-left: 150px;}
+    .heading{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;}
+    .proposing1 img{width: 80%;}
+.heading_point{margin-bottom: 10px;}
+.br-sp {display: none;}
+.summary2 img{width: 60%;}
+    .btn-c{width: 300px}
+.under_img{display: block;}
+.explanation, .proposing1{padding: 10px;}
+.explanation p, .proposing1 p, .proposing2 p, .roposing3 p {
+    margin-left: 10px;margin-right: 10px;}
+.summary{width: 90%;margin: 0 auto;}
+.summary img{width: 90%;}
+.under_img img{margin-top: 10px;margin-bottom: -5px;}
+a.btn-c, a.btn-d{width: 90%;padding: 20px;}
+    }
