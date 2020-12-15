@@ -731,6 +731,7 @@ a.btn-d:hover {
 
 
 @media screen and (max-width:750px) {
+.about{height: 300px}
     .top,
     .top-cont,
     .contents,{margin-left: 150px;}
@@ -738,6 +739,9 @@ a.btn-d:hover {
     display: block;
     text-align: center;
     margin-bottom: 10px;}
+    .about_block{left: 0px;position:static;}
+.about_block h4{font-size: 30px;}
+.about_block p{font-size: 17px;}
     .proposing1 img{width: 80%;}
 .heading_point{margin-bottom: 10px;}
 .br-sp {display: none;}
@@ -751,4 +755,6 @@ a.btn-d:hover {
 .summary img{width: 90%;}
 .under_img img{margin-top: 10px;margin-bottom: -5px;}
 a.btn-c, a.btn-d{width: 90%;padding: 20px;}
+.explanation, .proposing1, .proposing2, .proposing3 {width: 90%;}
+.apple, .mint{margin-left: 0px;}
     }
