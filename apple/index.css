@@ -47,6 +47,17 @@ hr {
 	background-size: 25px 25px;
 }
 
+.topic1 h3{
+    font-size: 23px;
+     }
+     
+.topic1 p{
+    margin-left: 20px;
+     }
+
+.topic1 img{
+    margin-left: 40px;
+}
 
 
 #pageTop {
