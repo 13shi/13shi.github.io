@@ -204,7 +204,7 @@ body.lb-disable-scrolling {
 
 .cover {
 	object-fit: cover;
-	width: 200px;
+	width: 120px;
 	height: 400px;
     border-radius: 15px;
     margin: 20px;
